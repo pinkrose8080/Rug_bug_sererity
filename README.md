@@ -92,8 +92,8 @@ Evaluated under strict zero-leakage conditions (0 shared bug IDs between histori
 
 ### 1. Requirements & Environment
 ```bash
-git clone https://github.com/your-username/Lightweight-RAG-Bug-Severity-Classification.git
-cd Lightweight-RAG-Bug-Severity-Classification
+git clone https://github.com/pinkrose8080/Rug_bug_sererity.git
+cd Rug_bug_sererity
 pip install -r requirements.txt
 ```
 
