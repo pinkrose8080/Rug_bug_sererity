@@ -1,0 +1,577 @@
+bug_id,summary,severity_label,binary_label,original_severity,product,component,creation_time
+1689205,Intermittent layout/forms/crashtests/1388230-2.html (finished) | application crashed [@ js::AutoEnterOOMUnsafeRegion::crash],Non-Severe,0,s4,Core,Layout: Form Controls,2021-01-27T21:47:47Z
+1689320,Port bug 1689058 to Thunderbird: Rename clang-cl toolchains to clang,Severe,1,s1,Thunderbird,Build Config,2021-01-28T11:35:10Z
+1689329,Mobile youtube-playback tests failures and crashes,Severe,1,s2,Core,Audio/Video: Playback,2021-01-28T12:36:33Z
+1689623,Crash in [@ nsWindow::IsPopup],Severe,1,s2,Core,Graphics: WebRender,2021-01-29T14:44:31Z
+1689749,new test bug - please disregard,Severe,1,s1,Invalid Bugs,General,2021-01-29T22:33:47Z
+1689820,Page does not load in first tab right after FF 86.0 is loaded,Severe,1,s2,Core,DOM: Networking,2021-01-30T16:41:10Z
+1689861,What's New item in the main menu takes a while to appear after startup,Non-Severe,0,s4,Firefox,Messaging System,2021-01-31T08:23:22Z
+1690348,Intermittent TEST-UNEXPECTED-TIMEOUT | browser/components/sessionstore/test/browser_forget_async_closings.js | application timed out after 370 seconds with no output,Non-Severe,0,s4,Firefox,Session Restore,2021-02-02T18:17:29Z
+1690395,Repeatedly asks for app to open attached files. Prompts instead of automatically opening,Severe,1,s2,MailNews Core,Attachments,2021-02-02T21:49:02Z
+1690424,"New wpt failures in /html/semantics/interactive-elements/the-popup-element/ [popup-element-basic.tentative.html, popup-shadow-dom.tentative.html]",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-02-03T01:17:11Z
+1690752,Crash in [@ mozilla::wr::RenderThread::UpdateAndRender],Severe,1,s2,Core,Graphics: WebRender,2021-02-04T10:08:00Z
+1691028,[wix.com][Login] Autocomplete dropdown is also toggled when the form is autofilled on page load,Non-Severe,0,s4,Toolkit,Password Manager: Site Compatibility,2021-02-05T13:30:43Z
+1691034,Intermittent layout/generic/crashtests/370174-3.html | load failed: timed out waiting for pending paint count to reach zero (waiting for updateCanvasPending),Non-Severe,0,s4,Core,Layout,2021-02-05T14:09:32Z
+1691135,[Fission] Reload button not working,Severe,1,s2,Firefox,Session Restore,2021-02-05T20:52:58Z
+1691148,checkbox-clamp-01.html and radio-clamp-01.html fail on macOS and Windows due to new minimum widget size in non-native theme,Severe,1,s2,Core,Widget: Cocoa,2021-02-05T22:49:26Z
+1691901,MOZ_CRASH [@ js::gcstats::Statistics::lookupChildPhase],Non-Severe,0,s4,Core,JavaScript: GC,2021-02-10T09:16:00Z
+1692094,Turn off Websites Trust Bit for 'Chambers of Commerce Root - 2008' and 'Global Chambersign Root - 2008',Severe,1,s1,NSS,CA Certificates Code,2021-02-10T23:36:14Z
+1692446,Intermittent SUMMARY: ThreadSanitizer: data race /builds/worker/checkouts/gecko/toolkit/components/resistfingerprinting/nsRFPService.cpp:273:7 in RandomMidpoint,Non-Severe,0,s4,Core,WebRTC,2021-02-12T10:46:35Z
+1692646,Intermittent TEST-UNEXPECTED-TIMEOUT | browser/base/content/test/tabs/browser_navigate_through_urls_origin_attributes.js | application timed out after 370 seconds with no output,Non-Severe,0,s4,Firefox,Tabbed Browser,2021-02-13T03:58:54Z
+1693225,Visiting https://radio.garden infinitely redirects.,Non-Severe,0,s4,Core,Networking,2021-02-17T02:28:40Z
+1693411,Elements with visibility hidden remain in accessibility tree,Severe,1,s2,Core,Disability Access APIs,2021-02-17T22:47:23Z
+1693434,Report uncaught Objective C exceptions via crash reports,Severe,1,s2,Core,Widget: Cocoa,2021-02-18T01:17:22Z
+1693466,Mark radio-minimum-size.html as expected pass on macOS when the non-native theme is enabled,Severe,1,s2,Core,Widget: Cocoa,2021-02-18T06:36:48Z
+1693476,jit-test/tests/wasm/exceptions/throw-to-js.js: Generated code accesses below stack pointer,Severe,1,s2,Core,JavaScript: WebAssembly,2021-02-18T08:15:41Z
+1694420,Opening large data URLs in a new tab is very slow to display text in URL bar,Non-Severe,0,s4,Core,Layout: Text and Fonts,2021-02-23T15:39:36Z
+1695159,Intermittent browser/components/downloads/test/browser/browser_downloads_pauseResume.js | Cleanup function threw an exception - at (unknown module):undefined - Win error 32 during operation remove on file C:\Users\task_1614313881\AppData\Local\Temp\,Non-Severe,0,s4,Firefox,Downloads Panel,2021-02-26T09:19:16Z
+1695685,Use ffmpeg recorder on windows10 browsertime pageload tests.,Severe,1,s1,Testing,Raptor,2021-03-01T16:03:38Z
+1696772,Windows multi-instance lock becomes unusable when closed by one of several open instances,Severe,1,s2,Toolkit,Application Update,2021-03-06T21:10:47Z
+1697153,Intermittent /mathml/presentation-markup/scripts/subsup-parameters-1.html | SuperscriptShiftUp - assert_approx_equals: msup: Superscript shift expected 70 +/- 1 but got 17.75,Non-Severe,0,s4,Core,MathML,2021-03-09T13:24:13Z
+1697374,Intermittent dom/media/webaudio/test/test_mediaDecoding.html | Test timed out.,Non-Severe,0,s4,Core,Web Audio,2021-03-10T08:19:17Z
+1697735,During Registration  process OTP is not generated within time on CANARA bank mobile application,Severe,1,s2,Invalid Bugs,General,2021-03-11T07:56:23Z
+1697823,"Intermittent random test failure because of Toolkit.Telemetry ERROR ClientID::updateClientID - invalid client ID: null"" {file: ""resource://gre/modules/Log.jsm"" line: 723}]",Severe,1,s2,Toolkit,Telemetry,2021-03-11T15:27:02Z
+1697938,Intermittent TV browser/components/urlbar/tests/browser/browser_aboutHomeLoading.js | leaked 1 window(s) until shutdown [url = about:home],Non-Severe,0,s4,Firefox,Address Bar,2021-03-11T23:04:05Z
+1698024,[Proton] Missing `Send to All Devices` and `Manage Devices` from Send to device context menu,Severe,1,s2,Firefox,Menus,2021-03-12T09:20:16Z
+1698310,Intermittent [tier2] awsy/test_memory_usage.py TestMemoryUsage.test_open_tabs | application crashed [@ nsNSSCertificate::InitFromDER],Non-Severe,0,s4,Core,Security: PSM,2021-03-14T00:18:28Z
+1698353,"[fission] Some content gets clipped when navigating in an iframe, with e.g. Yahoo Mail and w3.org, with fission enabled",Severe,1,s2,Core,Layout: Scrolling and Overflow,2021-03-14T12:57:06Z
+1698619,"""New Windows and Tabs"" URL does not update when URL in manifest changes",Severe,1,s2,WebExtensions,Untriaged,2021-03-15T19:28:08Z
+1698799,uBlock Origin icon is no longer displayed on the toolbar when opening/closing the Customize page,Non-Severe,0,s4,Firefox,Toolbars and Customization,2021-03-16T13:55:31Z
+1698817,[Cisco Webex] Microphone permission is leaked to other sites in the same tab during the grace period,Severe,1,s2,Firefox,Site Permissions,2021-03-16T14:49:55Z
+1699514,"[macOS] Saved Search or Unified properties, or create or edit saved search window loses focus, cannot be closed, Thunderbird hangs",Severe,1,s2,Thunderbird,Mail Window Front End,2021-03-18T18:16:45Z
+1699571,Intermittent netwerk/test/unit/test_odoh.js | test17 - [test17 : 197] Checking status - 2152398878 == 0 after xpcshell return code: 0,Non-Severe,0,s4,Core,DOM: Networking,2021-03-18T21:52:22Z
+1699968,mDatabase reset to null unexpectedly,Severe,1,s2,MailNews Core,Networking: IMAP,2021-03-21T08:29:12Z
+1700268,"New wpt failures in /html/semantics/forms/the-selectmenu-element/ [selectmenu-parts-structure.tentative.html, selectmenu-value.tentative.html]",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-03-23T02:35:56Z
+1700315,Intermittent raptor-browsertime Critical: [chrome-m] UrlLoadError: Failed to load https://discordapp.com/,Non-Severe,0,s4,Testing,Raptor,2021-03-23T10:55:49Z
+1700586,Startup Crash in [@ js::frontend::CompilationStencil::instantiateStencils],Severe,1,s2,Core,JavaScript Engine,2021-03-24T09:31:40Z
+1700762,extension pages cannot load subresources in a sandboxed iframe,Severe,1,s2,WebExtensions,General,2021-03-24T20:17:47Z
+1700795,Detect running from .dmg on macOS and report telemetry,Severe,1,s2,Toolkit,Startup and Profile System,2021-03-24T23:22:13Z
+1700850,Make `--backgroundtask` temporary profiles truly random,Severe,1,s2,Toolkit,Application Update,2021-03-25T04:25:15Z
+1701139,"Intermittent devtools/client/framework/test/browser_toolbox_backward_forward_navigation.js | Uncaught exception - at resource://devtools/shared/protocol/types.js:362 - TypeError: can't access property ""actorID"", v is null",Non-Severe,0,s4,DevTools,Framework,2021-03-26T05:30:01Z
+1701361,Reproducible crash on arstechnica [@ core::option::expect_failed | webrender::spatial_tree::SpatialTree::get_relative_transform_with_face ],Severe,1,s2,Core,Graphics: WebRender,2021-03-26T23:20:06Z
+1701520,"Intermittent browser/components/shell/test/browser_headless_screenshot_X.js | Firefox process should exit with code 0 - Got 11, expected +0",Non-Severe,0,s4,Firefox,Shell Integration,2021-03-28T18:33:32Z
+1701873,about:welcome - Step 1 - if browser already set as default update text button to [Get started],Non-Severe,0,s4,Firefox,Messaging System,2021-03-30T07:09:58Z
+1702003,"Intermittent toolkit/components/extensions/test/browser/browser_ext_themes_chromeparity.js | Window background is set to the colors.frame property - ""rgb(255, 0, 0)"" == ""rgb(71, 105, 91)"" - JS frame :: chrome://mochitests/content/browser/toolkit/component",Non-Severe,0,s4,WebExtensions,General,2021-03-30T17:33:17Z
+1702169,Intermittent browser/base/content/test/webrtc/browser_devices_get_user_media_unprompted_access.js | Test timed out -,Non-Severe,0,s4,Core,WebRTC,2021-03-31T10:13:09Z
+1702186,Intermittent dom/media/webvtt/test/mochitest/test_bug1018933.html | Test timed out.,Non-Severe,0,s4,Core,Audio/Video,2021-03-31T11:13:31Z
+1702222,"Intermittent TEST-UNEXPECTED-TIMEOUT | /html/cross-origin-embedder-policy/report-only-require-corp.https.html | ""require-corp"" top-level noopener popup: navigating to ""none"" should succeed - Test timed out",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-03-31T13:27:24Z
+1702334,"Intermittent /content-security-policy/inheritance/sandboxed-data-scheme.html | Violation report status OK. - assert_true: No CSP report sent, but expecting one. expected true got false",Non-Severe,0,s4,Core,DOM: Security,2021-03-31T21:03:29Z
+1702417,Connections to TCP/TLS/TURN server for WebRTC ICE do not use configured proxy,Severe,1,s2,Core,WebRTC: Networking,2021-04-01T07:48:30Z
+1702540,Ensure browser/extensions/screenshots/background/senderror.js passes eslint check,Non-Severe,0,s4,Firefox,Screenshots,2021-04-01T16:17:28Z
+1702569,Ensure browser/extensions/screenshots/selector/callBackground.js passes eslint check,Non-Severe,0,s4,Firefox,Screenshots,2021-04-01T16:50:11Z
+1702948,Do not expose ghost functions to debugger,Severe,1,s2,Core,JavaScript Engine,2021-04-05T06:58:12Z
+1703392,Intermittent /css/css-writing-modes/float-contiguous-vrl-012.xht | Testing http://web-platform.test:8000/css/css-writing-modes/float-contiguous-vrl-012.xht == http://web-platform.test:8000/css/css-writing-modes/float-contiguous-vrl-012-ref.xht,Non-Severe,0,s4,Core,Layout,2021-04-06T21:51:54Z
+1703400,Hide spell check items in the context menu for login username fields (and disable spellcheck?),Non-Severe,0,s4,Firefox,Menus,2021-04-06T22:12:30Z
+1703471,"Intermittent [TV] devtools/client/inspector/test/browser_inspector_reload_iframe.js | leaked 3 window(s) until shutdown [url = data:text/html;charset=utf-8,%0A%20%20%3Ciframe%20src=%22data:text/html;charset=utf-8,%253Cdiv%2520id=%2522in-frame...",Non-Severe,0,s4,DevTools,Inspector,2021-04-07T08:20:05Z
+1703665,Remove usage of --android-storage in Raptor / Browsertime,Severe,1,s2,Testing,Raptor,2021-04-07T20:18:20Z
+1704014,"Intermittent WPT failure with ""Traceback (most recent call last): | OSError: No data received over socket"", coming soon after ""Marionette threw an error: NotSupportedError: ChromeUtils.registerWindowActor: 'MarionetteReftest' actor is already registered.""",Non-Severe,0,s4,Testing,web-platform-tests,2021-04-09T04:20:01Z
+1704022,Widevine 4.10.2209.1 fails to load for builds that do no have code changes from bug 1701089 but are targeted by new rules,Severe,1,s2,Core,Audio/Video: Playback,2021-04-09T06:23:12Z
+1704073,Address bar placeholder text doesn't have enough contrast in Dark theme,Non-Severe,0,s4,Firefox,Address Bar,2021-04-09T12:03:44Z
+1704095,Perma various wpt test failures from enabling top level await when Gecko 89 merges to Beta on 2021-04-19,Non-Severe,0,s4,Core,JavaScript Engine,2021-04-09T14:19:17Z
+1704244,Intermittent browser/components/search/test/browser/browser_contextmenu_whereToOpenLink.js | Test timed out -,Non-Severe,0,s4,Firefox,Search,2021-04-10T02:39:42Z
+1704266,Intermittent [tier2] dom/html/test/test_fullscreen_meta_viewport.html | Test timed out. -,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-04-10T08:19:47Z
+1704278,"InvalidStateError: ""getDisplayMedia must be called from a user gesture handler"" error in cross-origin iframe with allow=""camera; microphone; display-capture""",Severe,1,s2,Core,WebRTC: Audio/Video,2021-04-10T11:43:17Z
+1704282,Intermittent TEST-UNEXPECTED-TIMEOUT | dom/media/webrtc/tests/mochitests/test_dataChannel_dataOnlyBufferedAmountLow.html | application timed out after 370 seconds with no output,Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-04-10T12:25:33Z
+1704473,Remove <head> requirement for <meta name=referrer>,Severe,1,s2,Core,DOM: Security,2021-04-12T10:42:02Z
+1704478,Incorrect clipping on MDN mix-blend-mode example,Non-Severe,0,s4,Core,Graphics: WebRender,2021-04-12T11:09:45Z
+1704974,Intermittent netwerk/test/unit_ipc/test_alt-data_cross_process_wrap.js | application crashed [@ mozilla::OffTheBooksMutex::~OffTheBooksMutex()],Non-Severe,0,s4,Core,Networking,2021-04-14T02:02:22Z
+1705144,Permission confirm for geolocation can't show in a sidebar,Non-Severe,0,s4,WebExtensions,Frontend,2021-04-14T17:06:51Z
+1705356,Keyboard focused items from Overflow menu have a dotted line over the focus ring,Non-Severe,0,s4,Firefox,Toolbars and Customization,2021-04-15T10:51:35Z
+1705487,Intermittent dom/base/test/browser_bug1303838.js | Test timed out -,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-04-15T18:09:45Z
+1705538,text size of buttons in infobar too small (e.g. notificationbar for crash reports),Non-Severe,0,s4,Core,Layout: Text and Fonts,2021-04-15T20:37:29Z
+1705821,[widget.macos.respect-system-appearance] Regression: Broken Tooltip and Context Menu color when using Light Theme In System Dark Mode,Severe,1,s2,Core,Widget: Cocoa,2021-04-16T20:13:46Z
+1705824,"Holding down the A key for repeated archiving results in lots of extra blank messages in Archive, and corruption of Undo (POP3 only)",Severe,1,s2,Thunderbird,Folder and Message Lists,2021-04-16T20:42:38Z
+1706025,[Proton] The warning icon from download panel lacks a fill colour (isn't yellow anymore),Severe,1,s2,Firefox,Downloads Panel,2021-04-19T09:35:42Z
+1706219,hang / session restore problem with upgrading devedition 88.0b9 profile ->89.0b1 on win10/64,Severe,1,s1,Toolkit,Startup and Profile System,2021-04-20T01:02:21Z
+1706293,"On narrow screenshot selections, middle handles are not accessible",Non-Severe,0,s4,Firefox,Screenshots,2021-04-20T09:59:45Z
+1706627,Migrate static wiki content for AWSY tests to PerfDocs,Severe,1,s2,Testing,AWSY,2021-04-21T13:09:12Z
+1706871,Impossible to download / read some PDF files,Severe,1,s2,Firefox,Downloads Panel,2021-04-22T06:28:12Z
+1706910,Crash in [@ objc_msgSend | AppKit@0x424da2] - Implement accessibilityFrame,Severe,1,s2,Core,Widget: Cocoa,2021-04-22T08:24:00Z
+1706991,Crash in [@ JSScript::fullyInitFromStencil],Non-Severe,0,s4,Core,JavaScript Engine,2021-04-22T14:13:45Z
+1707234,Double-tap to zoom breaks the reddit page,Severe,1,s2,Core,Panning and Zooming,2021-04-23T13:31:05Z
+1707360,Links with long URL containing space break in sent message due to added line break and indent spaces inside href value in source,Severe,1,s2,MailNews Core,MIME,2021-04-24T12:21:07Z
+1707404,Intermittent TEST-UNEXPECTED-TIMEOUT | /css/css-backgrounds/animations/background-color-animation-non-zero-size-element-change-to-zero.html | expected PASS,Non-Severe,0,s4,Core,"Layout: Images, Video, and HTML Frames",2021-04-24T20:22:42Z
+1707406,Intermittent TVw TEST-UNEXPECTED-TIMEOUT | /fetch/api/basic/request-upload.any.serviceworker.html | Fetch with POST with ReadableStream on 421 response should return the response and not retry. - Test timed out,Non-Severe,0,s4,Core,DOM: Networking,2021-04-24T20:25:49Z
+1707869,Trying to open native context menus for items found inside panels (while in full screen mode) doesn’t work,Severe,1,s2,Core,Widget: Cocoa,2021-04-27T12:12:34Z
+1708015,Replace MOZ_USE_NATIVE_POPUP_WINDOWS with mozilla::widget::NativeMenuSupport::ShouldUseNativeContextMenus() in nsToolkit.mm,Severe,1,s2,Core,Widget: Cocoa,2021-04-27T20:17:04Z
+1708032,Remove MOZ_USE_NATIVE_POPUP_WINDOWS in nsCocoaWindow.mm,Severe,1,s2,Core,Widget: Cocoa,2021-04-27T21:02:49Z
+1708176,[Proton][Win7] Classic Theme tab bar icons have poor contrast,Non-Severe,0,s4,Firefox,Theme,2021-04-28T13:03:57Z
+1708677,Intermittent dom/media/webrtc/tests/mochitests/<test_file>| PeerConnectionWrapper (pcRemote/pcLocal): legal ICE state transition from checking to disconnected,Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-04-30T12:07:38Z
+1708891,(Proton) (regression) description in site permissions panel has an padding without reason,Non-Severe,0,s4,Firefox,Site Permissions,2021-05-01T11:52:59Z
+1708997,Crash in [@ atomic_refcell::AtomicBorrowRef::do_panic],Severe,1,s2,Core,CSS Parsing and Computation,2021-05-02T18:52:43Z
+1709016,"New wpt failures in /html/canvas/offscreen/manual/filters/ [offscreencanvas.filter.html, offscreencanvas.filter.w.html]",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-05-03T02:34:02Z
+1709194,Intermittent TEST-UNEXPECTED-NOTRUN | /dom/events/webkit-animation-iteration-event.html | event types for prefixed and unprefixed animationiteration event listeners should be named appropriately - expected PASS,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-05-03T21:01:53Z
+1709394,Don't use chunked data to set current editable text in GeckoEditableChild.onTextChange,Severe,1,s2,GeckoView,General,2021-05-04T15:53:35Z
+1709603,Crash in [@ mozilla::layers::LockD3DTexture<T>],Non-Severe,0,s4,Core,Graphics: Layers,2021-05-05T13:21:14Z
+1709747,Intermittent /html/browsers/history/the-history-interface/002.html | replaceState should not actually load the new URL - assert_true: expected true got undefined,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-05-06T00:58:31Z
+1709891,Intermittent TEST-UNEXPECTED-TIMEOUT | browser/base/content/test/tabs/browser_pinnedTabs_clickOpen.js | application timed out after 370 seconds with no output,Non-Severe,0,s4,Firefox,Tabbed Browser,2021-05-06T16:13:25Z
+1710692,Intermittent SUMMARY: AddressSanitizer: access-violation /builds/worker/checkouts/gecko/dom/workers/WorkerPrivate.cpp:1634 in mozilla::dom::WorkerPrivate::Notify,Non-Severe,0,s4,Core,DOM: Workers,2021-05-11T17:46:14Z
+1710849,Intermittent dom/media/webrtc/tests/mochitests/test_ondevicechange.html | Test timed out. -,Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-05-12T13:06:43Z
+1710879,Fission crash in [@ mozilla::dom::BrowserBridgeHost::GetLayersId],Severe,1,s2,Core,Layout,2021-05-12T15:51:17Z
+1711252,The eBay and Etsy Sponsored Top Sites create history tiles for every click,Severe,1,s2,Firefox,Top Sites,2021-05-14T15:32:12Z
+1711651,We can't backfill browsertime-visual metrics jobs,Severe,1,s1,Testing,Performance,2021-05-18T10:05:38Z
+1711889,The notification badge is duplicated both in FX account icon and also hamburguer menu,Non-Severe,0,s4,Firefox,Menus,2021-05-19T12:07:55Z
+1712118,Crash in [@ shutdownhang | NtWriteFile],Severe,1,s2,Core,Security: PSM,2021-05-20T15:20:25Z
+1712297,Pinned topsites search shortcuts left hanging when @search_engine gets removed,Severe,1,s2,Firefox,Top Sites,2021-05-21T11:08:26Z
+1712475,Warning about too many recipients leads to inability to send,Severe,1,s2,Thunderbird,Message Compose Window,2021-05-22T20:25:39Z
+1712513,Installing addon with toolbar icon will shift menu icon,Non-Severe,0,s4,Thunderbird,Toolbars and Tabs,2021-05-23T20:12:47Z
+1712904,Lots of empty space inside overflow menu on the bottom while in customize mode when the scrollbar is active,Non-Severe,0,s4,Firefox,Toolbars and Customization,2021-05-26T08:58:40Z
+1713015,Update the default color override option to respect high contrast themes on Mac,Non-Severe,0,s4,Core,Disability Access APIs,2021-05-26T21:30:53Z
+1713036,Update DoH Preferences UI to work with Remote Settings config,Severe,1,s2,Firefox,Security,2021-05-27T00:42:15Z
+1713124,Crash in [@ RtlpFreeHeapInternal | RtlFreeHeap | MmdDxxCreateDevice],Severe,1,s2,Core,Audio/Video,2021-05-27T13:58:19Z
+1713447,Crash in [@ mozilla::DataChannelConnection::SctpDtlsOutput] from MOZ_DIAGNOSTIC_ASSERT(!mShutdown),Severe,1,s2,Core,WebRTC: Networking,2021-05-29T14:38:44Z
+1713495,Crash in [@ mozilla::PermissionDelegateHandler::MaybeUnsafePermissionDelegate],Severe,1,s2,Core,Permission Manager,2021-05-30T09:16:37Z
+1713625,offline support for CALDAV-calendar not working correctly - synchronization works one-way,Severe,1,s2,Calendar,Provider: CalDAV,2021-05-31T14:31:41Z
+1713776,Crash in [@ __faccessat],Severe,1,s2,Core,Security: Process Sandboxing,2021-06-01T09:31:47Z
+1713874,Lightning can't identify calendar from Radicale server and the interface locks up after trying,Severe,1,s2,Calendar,Provider: CalDAV,2021-06-01T18:54:26Z
+1714389,Missing body after message copied into a subfolder by Filter,Severe,1,s2,Thunderbird,Filters,2021-06-03T16:01:32Z
+1714596,crash on https://pro.ant.design/,Severe,1,s2,Core,Graphics: WebRender,2021-06-04T15:02:23Z
+1714766,Tabs need to be separated better for people with Keratokonus or ADHD,Severe,1,s2,Firefox,Theme,2021-06-05T12:36:52Z
+1715029,Crash in [@ mozilla::net::nsHttpTransaction::MaybeCancelFallbackTimer],Severe,1,s2,Core,Networking,2021-06-07T14:20:53Z
+1715089,Crash in [@ core::ptr::drop_in_place<T> | core::ptr::drop_in_place<T> | core::ptr::drop_in_place<T> | servo_arc::Arc<T>::drop_slow | style::rule_tree::core::RuleNode::drop_without_free_list | Servo_MaybeGCRuleTree],Severe,1,s2,Core,CSS Parsing and Computation,2021-06-07T17:42:36Z
+1715151,Crash in [@ mozilla::a11y::HTMLLIAccessible::BoundsInAppUnits],Severe,1,s2,Core,Disability Access APIs,2021-06-07T23:17:02Z
+1715268,Intermittent browser/components/customizableui/test/browser_history_recently_closed.js | Test timed out -,Non-Severe,0,s4,Firefox,Toolbars and Customization,2021-06-08T13:59:27Z
+1715276,Intermittent accessible/tests/browser/events/browser_test_selection_urlbar.js | application crashed [@ mozilla::a11y::logging::Address],Non-Severe,0,s4,Core,Disability Access APIs,2021-06-08T14:34:13Z
+1715522,Intermittent devtools/client/application/test/browser/browser_application_panel_list-several-workers.js | Test timed out -,Non-Severe,0,s4,DevTools,General,2021-06-09T12:15:04Z
+1715536,"Intermittent Assertion failure: Metrics().IsRootContent(), at /builds/worker/checkouts/gecko/gfx/layers/apz/src/AsyncPanZoomController.cpp:5478",Non-Severe,0,s4,Core,Panning and Zooming,2021-06-09T12:58:11Z
+1715552,"Intermittent dom/media/webrtc/tests/mochitests/test_peerConnection_removeThenAddAudioTrackNoBundle.html | iceconnectionstate event 'failed' matches expected state 'checking' - got ""failed"", expected ""checking""",Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-06-09T13:45:32Z
+1715744,"Intermittent browser/components/extensions/test/browser/browser_ext_devtools_inspectedWindow_reload.js | A new browsing context was created - Didn't expect 991, but got it",Non-Severe,0,s4,WebExtensions,Untriaged,2021-06-10T10:26:39Z
+1715757,Write extension test to verify 'matches' works correctly together with https-first mode,Non-Severe,0,s4,Core,DOM: Security,2021-06-10T11:50:44Z
+1715780,Printing issues when using a High Contrast color scheme in Windows,Severe,1,s2,Core,Printing: Output,2021-06-10T13:57:47Z
+1715837,"Intermittent [Tier2] devtools/client/framework/test/browser_target_parents.js | Uncaught exception - at resource://devtools/shared/protocol/Front.js:365 - Error: [Exception... ""Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWorkerDebu",Non-Severe,0,s4,DevTools,Framework,2021-06-10T17:15:29Z
+1715902,Refuse WebRender on Linux if GL context backed by software driver,Severe,1,s2,Core,Graphics: WebRender,2021-06-10T22:03:03Z
+1715968,Add-ons not auto-updating if requiring new API permissions - Thunderbird 78.*,Severe,1,s1,Thunderbird,Add-Ons: General,2021-06-11T10:47:29Z
+1716038,Intermittent dom/media/webrtc/tests/mochitests/test_peerConnection_twoAudioStreams.html | Test timed out. -,Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-06-11T17:11:46Z
+1716057,"Intermittent LeakSanitizer | leak at mozilla::PeerConnectionImpl::CreateDataChannel, mozilla::PeerConnectionImpl::CreateDataChannel, mozilla::dom::PeerConnectionImpl_Binding::createDataChannel, mozilla::dom::binding_detail::GenericMethod",Non-Severe,0,s4,Core,WebRTC,2021-06-11T19:12:44Z
+1716088,Intermittent dom/security/test/https-first/test_resource_upgrade.html | Unexpected response from server (nested-img-ok),Non-Severe,0,s4,Core,DOM: Security,2021-06-11T22:51:32Z
+1716140,"Intermittent /service-workers/service-worker/update-module-request-mode.https.html | headers of a main module script - promise_test: Unhandled rejection with value: object ""TypeError: ServiceWorker script at test-request-mode-worker.py for scope",Non-Severe,0,s4,Core,DOM: Service Workers,2021-06-12T13:35:28Z
+1716250,Stop distinguishing between JS_FRIEND_API and JS_PUBLIC_API,Non-Severe,0,s4,Core,JavaScript Engine,2021-06-13T23:45:26Z
+1716288,PDF is empty after downloading a file with input data,Severe,1,s1,Firefox,PDF Viewer,2021-06-14T09:42:50Z
+1716334,Crashes [@ libc++abi.dylib@0xf466 ] on macOS 12.0.0,Severe,1,s2,Core,Widget: Cocoa,2021-06-14T14:27:05Z
+1716713,Startup Crash in [@ mozilla::mscom::ProcessRuntime::InitInsideApartment],Severe,1,s2,Core,IPC: MSCOM,2021-06-16T07:40:37Z
+1716752,Crash in [@ nsINode::Length],Severe,1,s2,Core,DOM: Editor,2021-06-16T11:19:10Z
+1716813,Intermittent browser/base/content/test/tabs/browser_addAdjacentNewTab.js | application terminated with exit code 1,Non-Severe,0,s4,Firefox,Tabbed Browser,2021-06-16T15:46:21Z
+1716980,Broken rendering of XFA form,Severe,1,s2,Firefox,PDF Viewer,2021-06-17T10:35:43Z
+1717379,Sanitze dialog broken in SeaMonkey 2.57,Severe,1,s1,SeaMonkey,Bookmarks & History,2021-06-20T23:57:00Z
+1717519,Windows 7 software webrender Crash in [@ brush_solid_ALPHA_PASS_frag::swgl_drawSpanRGBA8],Severe,1,s2,Core,Graphics: WebRender,2021-06-21T21:39:08Z
+1717681,[XFA] A page is missing when loading a specific PDF in the browser,Severe,1,s2,Firefox,PDF Viewer,2021-06-22T17:37:39Z
+1717820,[XFA] A string is displayed as double-underlined incorrectly,Non-Severe,0,s4,Firefox,PDF Viewer,2021-06-23T12:30:06Z
+1717866,[XFA] Paragraphs are overlapping some input fields,Severe,1,s2,Firefox,PDF Viewer,2021-06-23T15:33:26Z
+1717907,Intermittent [TV] netwerk/test/unit/test_trr.js | test_trr_flags - [test_trr_flags : 115] true == false | after xpcshell return code: 0,Non-Severe,0,s4,Core,Networking,2021-06-23T19:28:25Z
+1718027,"Assertion failure: isObject(), at js/Value.h:776 or Crash [@ JS_GetProperty]",Severe,1,s2,Core,JavaScript Engine,2021-06-24T10:44:38Z
+1718074,Crash in [@ (anonymous namespace)::nsAvailableMemoryWatcher::LowMemoryCallback],Severe,1,s2,Core,XPCOM,2021-06-24T14:13:00Z
+1718191,software is not working,Severe,1,s1,Invalid Bugs,General,2021-06-25T06:50:32Z
+1718254,Intermittent browser/components/preferences/tests/browser_search_subdialogs_within_preferences_site_data.js | application crashed [@ mozalloc_handle_oom(unsigned int)],Non-Severe,0,s4,Firefox,Settings UI,2021-06-25T13:20:11Z
+1718419,"Intermittent devtools/client/inspector/rules/test/browser_rules_grid-highlighter-restored-after-reload.js | A promise chain failed to handle a rejection: Connection closed, pending request to server0.conn21.child4/layout29, type getGrids failed",Non-Severe,0,s4,DevTools,Inspector: Rules,2021-06-26T22:48:52Z
+1718618,files starting with `<img ` are incorrectly sniffed as HTML,Non-Severe,0,s4,Core,Networking,2021-06-29T10:38:30Z
+1718816,email verification bypass on Firefox Accounts,Severe,1,s1,Cloud Services,Server: Firefox Accounts,2021-07-01T02:55:43Z
+1718821,Intermittent TEST-UNEXPECTED-TIMEOUT | comm/calendar/test/browser/eventDialog/browser_alarmDialog.js (finished) | application timed out after 370 seconds with no output,Non-Severe,0,s4,Calendar,Dialogs,2021-07-01T04:36:50Z
+1719042,Firefox misleads user as to whether screen can be shared on macOS (if manually disabled),Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-07-03T12:54:40Z
+1719057,Elements in menus not opening with Surface Pro X pen,Severe,1,s2,Core,Widget: Win32,2021-07-03T21:18:27Z
+1719135,Crash in [@ mozilla::net::HostRecordQueue::MaybeRenewHostRecord],Severe,1,s2,Core,Networking: DNS,2021-07-05T09:00:05Z
+1719232,Crash in [@ <webrender::compositor::sw_compositor::SwCompositor as webrender::composite::Compositor>::bind] in distro build because of missing sse2,Severe,1,s2,Core,Graphics: WebRender,2021-07-06T01:53:18Z
+1719234,Crash in [@ mozilla::dom::PrototypeDocumentContentSink::SetParser],Severe,1,s2,Core,DOM: HTML Parser,2021-07-06T01:58:40Z
+1719355,Intermittent TEST-UNEXPECTED-TIMEOUT | /html/cross-origin-opener-policy/iframe-popup-same-origin-to-same-origin.https.html | TestRunner hit external timeout (this may indicate a hang),Non-Severe,0,s4,Core,DOM: Core & HTML,2021-07-06T18:55:45Z
+1719401,Intermittent netwerk/test/unit/test_dns_retry.js | test_prefer_address_version_fail_trr3_1 - [test_prefer_address_version_fail_trr3_1 : 168] Expecting only one instance of NS_NET_STATUS_RESOLVED_HOST - 10 == 1| after xpcshell return code: 0,Non-Severe,0,s4,Core,DOM: Networking,2021-07-07T02:22:09Z
+1719487,Intermittent TEST-UNEXPECTED-TIMEOUT | devtools/client/framework/browser-toolbox/test/browser_browser_toolbox_evaluation_context.js (finished) | application timed out after 370 seconds with no output,Non-Severe,0,s4,DevTools,Framework,2021-07-07T15:23:07Z
+1719684,Crash in [@ mozilla::net::nsHttpChannel::SetupReplacementChannel] when navigating to cnn.com with the profiler running,Severe,1,s2,Core,Gecko Profiler,2021-07-08T15:55:31Z
+1719829,Intermittent org.mozilla.geckoview.test.TextInputDelegateTest#inputConnection_bug1593683[#contenteditable] | java.lang.AssertionError: Can set the composing text,Non-Severe,0,s4,GeckoView,General,2021-07-09T10:25:35Z
+1720025,Intermittent printing/test-async-print.html | application crashed [@ ___NSRunLoopTimerCreateWithHandler_block_invoke + 0x22] | application terminated with exit code 1,Non-Severe,0,s4,Core,Printing: Output,2021-07-11T12:30:27Z
+1720096,macOS Crash in [@ mozilla::ipc::MessagePump::MessagePump],Severe,1,s2,Core,IPC,2021-07-12T11:25:22Z
+1720194,Intermittent org.mozilla.geckoview.test.WebExtensionTest#backgroundPortDisconnectFromApp | application crashed [@ pthread_kill + 0x42],Non-Severe,0,s4,GeckoView,Extensions,2021-07-12T20:37:04Z
+1720287,Intermittent PROCESS-CRASH | Main app process exited normally | application crashed [@ mozilla::dom::WorkerPrivate::AssertIsOnWorkerThread() const],Severe,1,s1,Core,DOM: Workers,2021-07-13T11:29:23Z
+1720626,"New wpt failures in /css/css-break/ [out-of-flow-in-multicolumn-066.html, out-of-flow-in-multicolumn-067.html]",Non-Severe,0,s4,Core,Layout: Columns,2021-07-15T04:11:00Z
+1720705,Crash in [@ java.lang.RuntimeException: at org.mozilla.gecko.mozglue.GeckoLoader.doLoadLibrary(Unknown Source:465)],Severe,1,s2,GeckoView,General,2021-07-15T14:34:47Z
+1720905,Intermittent browser/components/downloads/test/browser/browser_first_download_panel.js | Uncaught exception - Waiting for button downloads-button to have non-0 size - timed out after 50 tries.,Non-Severe,0,s4,Firefox,Downloads Panel,2021-07-16T14:59:31Z
+1720999,Intermittent TEST-UNEXPECTED-TIMEOUT | browser/components/extensions/test/xpcshell/test_ext_menu_caller.js | Test timed out,Non-Severe,0,s4,WebExtensions,Untriaged,2021-07-17T11:38:16Z
+1721005,Intermittent [Tier 2] browser/base/content/test/webrtc/browser_devices_get_user_media_in_frame.js | application terminated with exit code 1,Non-Severe,0,s4,Core,WebRTC,2021-07-17T12:13:58Z
+1721190,Allow fallback from WR to SW-WR on Android,Severe,1,s2,Core,Graphics: WebRender,2021-07-19T15:33:25Z
+1721621,Intermittent [tier2] TEST-UNEXPECTED-TIMEOUT | /html/canvas/element/the-canvas-state/2d.state.saverestore.textAlign.html | TestRunner hit external timeout (this may indicate a hang),Non-Severe,0,s4,Core,DOM: Core & HTML,2021-07-21T14:09:37Z
+1721894,Intermittent [TV] browser/components/urlbar/tests/browser/browser_urlbar_telemetry_searchmode.js | urlbar.picked.searchmode.touchbar must contain the '0' key. - false == true - JS frame :: resource://testing-common/TelemetryTestUtils.jsm,Non-Severe,0,s4,Firefox,Address Bar,2021-07-22T20:42:37Z
+1722085,Snapping between monitors fails to update scaling,Severe,1,s2,Core,Widget: Win32,2021-07-23T20:19:20Z
+1722145,browser.permissions.remove() permanently removes devtools panel,Severe,1,s2,WebExtensions,Developer Tools,2021-07-24T07:31:29Z
+1722314,Port bug 1648786 (JNLP) to 91 ESR.,Severe,1,s1,Firefox,File Handling,2021-07-26T14:36:15Z
+1722361,libfreetype.so crash in [@ mozilla::detail::MutexImpl::lock | mozilla::gfx::Factory::NewSharedFTFace],Severe,1,s2,Core,Graphics: Text,2021-07-26T17:59:59Z
+1722404,Intermittent TEST-UNEXPECTED-TIMEOUT | browser/components/preferences/tests/browser_searchChangedEngine.js | application timed out after 370 seconds with no output,Non-Severe,0,s4,Firefox,Settings UI,2021-07-26T22:14:00Z
+1722498,Bookmark & History of Firefox not working,Severe,1,s1,Invalid Bugs,General,2021-07-27T12:40:53Z
+1722622,Intermittent toolkit/components/extensions/test/xpcshell/test_ext_background_service_worker.js | application crashed [@ mozilla::dom::ServiceWorkerUpdateJob::FailUpdateJob(nsresult)],Non-Severe,0,s4,WebExtensions,General,2021-07-27T22:37:25Z
+1722698,Crash in [@ InvalidArrayIndex_CRASH | mozilla::SelectionState::SaveSelection],Severe,1,s2,Core,DOM: Editor,2021-07-28T11:02:44Z
+1722966,Cannot install manifest v2 extension with host_permissions or action key in manifest file,Severe,1,s2,WebExtensions,General,2021-07-29T17:07:28Z
+1722993,Intermittent dom/l10n/tests/mochitest/dom_localization/test_l10n_mutations.html | Test timed out. -,Non-Severe,0,s4,Core,Internationalization,2021-07-29T19:26:13Z
+1723070,Intermittent browser/components/pocket/test/browser_pocket_ui_check.js | Test timed out -,Non-Severe,0,s4,Firefox,Pocket,2021-07-30T06:15:00Z
+1723302,"Intermittent requests.exceptions.ConnectionError: HTTPSConnectionPool(host='coverity.moz.tools', port=443): Max retries exceeded with url: /downloads/cov-analysis-linux64-2020.12.tar.gz",Non-Severe,0,s4,Release Engineering,Release Automation: Other,2021-07-31T15:39:12Z
+1723332,"Intermittent dom/base/test/test_copypaste.xhtml | text/unicode value in the clipboard - got ""waitForClipboard-known-value-0.893314394599496"", expected "" bla\n\n    foo\n    bar\n\n""",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-08-01T00:42:08Z
+1723334,Intermittent TCw1 TEST-UNEXPECTED-TIMEOUT | /css/css-break/out-of-flow-in-multicolumn-068.html | TestRunner hit external timeout (this may indicate a hang),Non-Severe,0,s4,Core,Layout,2021-08-01T01:13:56Z
+1723360,"Intermittent editor/libeditor/tests/test_bug478725.html | undefined assertion name - got ""<ol><li id=\""paste_here\"">X</li></ol>"", expected ""<ol><li id=\""paste_here\"">X</li><li>Hello</li><ul><li>Kitty</li></ul></ol>""",Non-Severe,0,s4,Core,DOM: Editor,2021-08-01T10:15:40Z
+1723670,"Intermittent [tier 2] TEST-UNEXPECTED-TIMEOUT | /WebCryptoAPI/derive_bits_keys/pbkdf2.https.any.worker.html?6001-7000 | Derived key of type name: AES-KW length: 192  using empty password, long salt, SHA-384, with 100000 iterations - Test timed out",Non-Severe,0,s4,Core,DOM: Security,2021-08-03T06:20:56Z
+1723766,about:about pages cannot be properly navigated using VoiceOver MacOS,Severe,1,s2,Core,Disability Access APIs,2021-08-03T15:41:06Z
+1723920,Crash [@ mozilla::dom::StorageDBThread::Get] with out-of-bounds access via IPC,Severe,1,s2,Core,Storage: localStorage & sessionStorage,2021-08-04T08:26:54Z
+1723968,Intermittent tp5o_webext | invalid literal for int() with base 10: '338.196879052266',Non-Severe,0,s4,Testing,Talos,2021-08-04T13:32:51Z
+1724048,"Intermittent Assertion failure: neckoTarget, at /builds/worker/checkouts/gecko/netwerk/protocol/http/HttpChannelChild.cpp:2823",Non-Severe,0,s4,Core,Networking: HTTP,2021-08-04T18:14:22Z
+1724334,Intermittent TEST-UNEXPECTED-CRASH | /html/semantics/embedded-content/the-img-element/sizes/parse-a-sizes-attribute-width-1000px.html | expected OK,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-08-06T00:46:52Z
+1724574,Intermittent /resize-observer/observe.html | test14: observe the same target but using a different box should override the previous one - assert_unreached: Timed out waiting for notification. (100ms) Reached unreachable code,Non-Severe,0,s4,Core,Layout,2021-08-07T12:05:57Z
+1724806,Intermittent toolkit/components/extensions/test/mochitest/test_ext_listener_proxies.html | Test timed out. - | Extension left running at test shutdown,Non-Severe,0,s4,WebExtensions,General,2021-08-09T22:04:48Z
+1724811,[Bug]: Text in textarea disappears while typing,Severe,1,s2,GeckoView,General,2021-08-09T22:26:39Z
+1724896,"Firefox incorrectly interprets newlines in HTTP headers in HTTP/3, allowing for header splitting",Severe,1,s2,Core,Networking: HTTP,2021-08-10T10:45:25Z
+1724918,Support highlighting required fields,Severe,1,s2,Firefox,PDF Viewer,2021-08-10T12:41:24Z
+1725266,Intermittent browser/components/contextualidentity/test/browser/browser_serviceworkers.js | Test timed out -,Non-Severe,0,s4,Core,DOM: Security,2021-08-11T23:26:37Z
+1725344,Invalid reports for Implicit constructor,Severe,1,s2,Developer Infrastructure,Source Code Analysis,2021-08-12T08:34:45Z
+1725364,Articles from TheSwishLife don't load,Severe,1,s2,Web Compatibility,Site Reports,2021-08-12T09:47:22Z
+1725386,Intermittent devtools/client/performance-new/test/browser/browser_split-toolbar-button.js | Test timed out - | Found a tab after previous test timed out: about:blank -,Non-Severe,0,s4,DevTools,Performance Tools (Profiler/Timeline),2021-08-12T12:31:49Z
+1725400,Permanent Android bustage make[3]: *** [Makefile:150: recurse_android-archive-geckoview] Error 1 | Invalid publication 'withGeckoBinariesDebug': artifactId is not a valid Maven identifier ([A-Za-z0-9_\-.]+). when Gecko 92 merges to Release on 2021-08-30,Severe,1,s1,GeckoView,General,2021-08-12T13:54:33Z
+1725488,"Remove mozAddRidExtension, and rewrite tests that use it to use the wpt simulcast hack",Severe,1,s2,Core,WebRTC: Signaling,2021-08-12T20:56:14Z
+1725524,"Intermittent UntrustedModulesFixture.Serialize | Expected: (aData.mStacks.GetModuleCount()) > (0), actual: 0 vs 0 @ /builds/worker/checkouts/gecko/toolkit/xre/dllservices/tests/gtest/TestUntrustedModules.cpp:320",Non-Severe,0,s4,Core,DLL Services,2021-08-13T00:49:53Z
+1725554,"youtube broken av1 video playback, blurry, patchy with colors off av01.0.00M.08",Severe,1,s2,Core,Audio/Video: Playback,2021-08-13T06:59:46Z
+1725652,"Show most relevant bookmarks in address bar, even when history is cleared",Severe,1,s2,Firefox,Address Bar,2021-08-13T14:14:45Z
+1725736,An important Bookmark folder disappeared again! (Reported before),Severe,1,s2,Firefox,Sync,2021-08-14T00:04:19Z
+1725798,Crash in [@ cairo_pdf_interchange_tag_begin],Severe,1,s2,Core,Printing: Output,2021-08-14T15:19:26Z
+1725858,Intermittent dom/messagechannel/tests/test_event_listener_leaks.html | iframe content window should be garbage collected - MessageChannel default,Non-Severe,0,s4,Core,DOM: postMessage,2021-08-15T11:35:58Z
+1726008,Intermittent TEST-UNEXPECTED-TIMEOUT | /client-hints/service-workers/intercept-request-critical.https.window.html | Service workers succsefully receives hints from request - Test timed out,Non-Severe,0,s4,Testing,web-platform-tests,2021-08-16T17:44:54Z
+1726011,"Intermittent browser/components/extensions/test/browser/browser_ext_tabs_discarded.js | message queue is empty - Got ""[\""tab-discarded\""]"", expected ""[]""",Non-Severe,0,s4,WebExtensions,Untriaged,2021-08-16T17:53:30Z
+1726055,Intermittent devtools/shared/commands/target/tests/browser_target_command_browser_workers.js | retrieve the target for the service worker -,Non-Severe,0,s4,DevTools,General,2021-08-17T00:09:01Z
+1726240,"Intermittent devtools/client/responsive/<test-name> | A promise chain failed to handle a rejection: Connection closed, pending request to server0.conn33.windowGlobal47244640261/responsiveActor13, type setFloatingScrollbars failed",Non-Severe,0,s4,DevTools,Responsive Design Mode,2021-08-17T21:20:23Z
+1726243,Intermittent js/src/tests/test262/language/module-code/top-level-await/await-dynamic-import-rejection.js;error=TypeError;module | No test results reported. (SCRIPT),Non-Severe,0,s4,Core,JavaScript Engine,2021-08-17T21:26:55Z
+1726244,Intermittent [TV] dom/media/webrtc/tests/mochitests/test_peerConnection_simulcastOffer.html | Test timed out. -,Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-08-17T21:30:15Z
+1726262,Perma [Tier2] FileToBugzillaMappingError: Missing Bugzilla component: patch - Set the BUG_COMPONENT in the moz.build file to fix the issue.,Non-Severe,0,s4,Firefox Build System,General,2021-08-17T22:50:08Z
+1726562,Crash in [@ nsBaseWidget::CreateCompositor],Severe,1,s2,Core,Graphics,2021-08-19T12:39:33Z
+1726699,"Intermittent browser/components/extensions/test/browser/browser_ext_openPanel.js | no tasks awaiting on messages - Got ""[\""panel-opened\""]"", expected ""[]"" | Test timed out",Non-Severe,0,s4,WebExtensions,Untriaged,2021-08-20T05:12:39Z
+1726758,"[Thunderbird Telemetry] telemetry for account types should exclude ""none""",Non-Severe,0,s4,Thunderbird,Account Manager,2021-08-20T11:30:36Z
+1726953,Intermittent browser/components/extensions/test/browser/browser_ext_sidebarAction_contextMenu.js | application crashed [@ libgdk-3.so.0 + 0x67fb0],Non-Severe,0,s4,WebExtensions,Untriaged,2021-08-22T01:02:26Z
+1727853,Intermittent testing/firefox-ui/tests/functional/sessionstore/test_restore_windows_after_restart_and_quit.py TestSessionStoreEnabledAllWindows.test_with_variety | AssertionError: Items in the first set but not the second:,Non-Severe,0,s4,Testing,Firefox UI Tests,2021-08-27T00:08:00Z
+1727860,Intermittent TEST-UNEXPECTED-TIMEOUT | /svg/animations/attribute-value-unaffected-by-animation-001.html | expected OK,Non-Severe,0,s4,Core,SVG,2021-08-27T00:54:16Z
+1727885,"Intermittent [tier 2] layout/base/tests/test_bug370436.html | Word 1 selected correctly - got undefined, expected ""welcome""",Non-Severe,0,s4,Core,Layout,2021-08-27T07:51:32Z
+1727911,Intermittent TEST-UNEXPECTED-CRASH | /html/semantics/forms/form-submission-0/historical.window.html | expected OK,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-08-27T11:31:02Z
+1727996,Subject field text disabled after saving message (DE),Severe,1,s2,Thunderbird,Message Compose Window,2021-08-28T23:17:57Z
+1728528,Intermittent TEST-UNEXPECTED-TIMEOUT | devtools/server/tests/xpcshell/test_addon_debugging_connect.js | Test timed out,Non-Severe,0,s4,DevTools,General,2021-09-01T08:55:15Z
+1728602,"Stop using OS.File in symbolication-worker.js, once the necessary IOUtils APIs exist",Non-Severe,0,s4,DevTools,Performance Tools (Profiler/Timeline),2021-09-01T15:42:27Z
+1728711,"Intermittent dom/svg/test/test_pointer-events-4.xhtml | Should not hit top-left of r1 - got null, expected [object SVGRectElement]",Non-Severe,0,s4,Core,SVG,2021-09-02T04:03:23Z
+1728832,Intermittent TEST-UNEXPECTED-CRASH | /html/canvas/element/the-canvas-state/2d.state.saverestore.shadowBlur.html | expected OK,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-09-02T16:28:18Z
+1729373,Intermittent [Tier2] netwerk/test/reftest/bug565432-1.html | application timed out after 370 seconds with no output,Non-Severe,0,s4,Core,Networking,2021-09-07T00:36:29Z
+1729716,Intermittent subprocess.CalledProcessError: Command '/builds/worker/.mozbuild/android-sdk-linux/cmdline-tools/4.0/bin/sdkmanager' returned non-zero exit status 1 | after archive is not a ZIP archive,Non-Severe,0,s4,Firefox Build System,Toolchains,2021-09-08T15:23:16Z
+1729848,Intermittent remote/cdp/test/browser/runtime/browser_callFunctionOn_returnByValue.js | A promise chain failed to handle a rejection: Could not get children of file(C:\Users\task_1631149938\AppData\Local\Temp\tmp3y8shujo.mozrunner\thumbnails) because,Non-Severe,0,s4,Remote Protocol,CDP,2021-09-09T06:26:19Z
+1730120,UXSS: location.origin is changed (port/host),Severe,1,s2,Core,DOM: Navigation,2021-09-10T09:31:58Z
+1730153,All composition dialogs do no longer show keyboard focus on any buttons,Severe,1,s2,Thunderbird,Theme,2021-09-10T12:52:27Z
+1730388,Crash in [@ memcpy | icalvalue_get_recur],Severe,1,s2,Calendar,General,2021-09-12T08:45:52Z
+1730401,Intermittent browser/components/sessionstore/test/browser_revive_crashed_bg_tabs.js | A promise chain failed to handle a rejection: SSWindowStateReady listener not removed before the end of test - stack: (No stack available.),Non-Severe,0,s4,Firefox,Session Restore,2021-09-12T12:14:09Z
+1730805,Intermittent [tier 2] WebRtcIceConnectTest.TestConnectTwoComponents | Value of: res,Non-Severe,0,s4,Core,WebRTC: Networking,2021-09-15T00:10:26Z
+1730810,Intermittent [tier 2] dom/tests/browser/browser_sessionStorage_navigation.js | Test timed out -,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-09-15T00:52:26Z
+1730830,Intermittent gfx/layers/apz/test/mochitest/test_group_hittest-1.html | helper_hittest_sticky_bug1478304.html | Expected at least one hit result in the APZTestData,Non-Severe,0,s4,Core,Panning and Zooming,2021-09-15T06:35:08Z
+1730878,Clicking on a suggestion while a history suggestion created by Quick Suggest is displayed makes an error appear in the Browser Console,Non-Severe,0,s4,Firefox,Address Bar,2021-09-15T12:45:41Z
+1730920,Https only mode shouldn't be triggered by the wifi portal code,Severe,1,s2,Core,DOM: Security,2021-09-15T15:42:29Z
+1731053,[Experiment] The browser is not pinned to the taskbar if the CFRs “Pin to Taskbar” button is clicked,Severe,1,s2,Firefox,Messaging System,2021-09-16T11:33:33Z
+1731214,Crash in [@ memcpy_repmovs | nsMsgLineBuffer::BufferInput],Severe,1,s2,Thunderbird,General,2021-09-17T08:42:53Z
+1731334,Intermittent gmake[3]: *** [/builds/worker/checkouts/gecko/config/recurse.mk:72: media/gmp-clearkey/0.1/target-objects] Segmentation fault,Non-Severe,0,s4,Firefox Build System,General,2021-09-17T16:16:51Z
+1731432,Crash in [@ CheckParticipatesInCycleCollection],Severe,1,s2,Core,XPCOM,2021-09-18T09:56:17Z
+1731447,Intermittent TEST-UNEXPECTED-TIMEOUT | /mathml/presentation-markup/operators/embellished-operator-002.html | TestRunner hit external timeout (this may indicate a hang),Non-Severe,0,s4,Core,MathML,2021-09-18T13:09:14Z
+1731482,Repair Text Encoding: doesn't detect lone windows-1252 copyright sign,Severe,1,s2,Core,Internationalization,2021-09-19T07:49:24Z
+1731755,Intermittent TV netwerk/test/unit/test_httpssvc_https_upgrade.js | testUseHTTPSSVCAsHSTS - [testUseHTTPSSVCAsHSTS : 1] Checking status - 2152398878 == 0,Non-Severe,0,s4,Core,Networking: DNS,2021-09-21T10:15:09Z
+1731973,Perma [tier 2] TEST-UNEXPECTED-PASS | /resource-timing/cross-origin-redirects.html | Verify that cross-origin resources' timings aren't exposed through HTTP redirects. - expected TIMEOUT,Non-Severe,0,s4,Core,Performance,2021-09-22T08:12:51Z
+1732006,"New wpt failures in /html/canvas/element/manual/wide-gamut-canvas/ [canvas-display-p3-drawImage.html, canvas-display-p3-pattern-canvas.html, canvas-display-p3-pattern-image.html]",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-09-22T10:31:23Z
+1732034,Perma OSError: [Errno 8] Exec format error: '/builds/worker/fetches/upx-3.95-win64/upx.exe',Severe,1,s1,Firefox,Installer,2021-09-22T11:50:07Z
+1732088,[Monochromatic Themes] The theme is not applied to the Notification icons,Severe,1,s2,Firefox,Theme,2021-09-22T14:17:05Z
+1732299,Intermittent dom/indexedDB/test/test_event_listener_leaks.html | iframe content window should be garbage collected - IDB document.open(),Non-Severe,0,s4,Core,Storage: IndexedDB,2021-09-23T12:45:53Z
+1732742,Mach browsertime --setup doesn't install vismet requirements,Severe,1,s2,Testing,Performance,2021-09-27T16:01:31Z
+1732778,Simulcast SSRCs aren't in encoding order when RTX is on,Severe,1,s2,Core,WebRTC: Signaling,2021-09-27T19:35:30Z
+1733040,"Intermittent js\src\jit-test\tests\wasm\passive-segs-nonboundary.js | z:\task_163287938889846\src\js\src\jit-test\tests\wasm\passive-segs-nonboundary.js:102:17 Error: Assertion failed: got (void 0), expected 1: tab_test fail: insn = '(table.init 1 (i32.c",Non-Severe,0,s4,Core,JavaScript Engine,2021-09-29T06:28:45Z
+1733083,"Intermittent Assertion failure: !keyUnset (Generated key had a collision!), at /builds/worker/checkouts/gecko/dom/indexedDB/ActorsParent.cpp:19863",Non-Severe,0,s4,Core,Storage: IndexedDB,2021-09-29T11:50:30Z
+1733289,"WebAssembly.Global doesn't accept ""anyfunc"" value type",Severe,1,s2,Core,JavaScript: WebAssembly,2021-09-30T02:04:13Z
+1733453,Intermittent TEST-UNEXPECTED-FAIL | No test output (missing mozunit.main() call?): /builds/worker/checkouts/gecko/testing/mozbase/mozproxy/tests/test_recordings.py,Non-Severe,0,s4,Testing,Mozbase,2021-09-30T19:04:19Z
+1733647,Implement RTCRtpEncodingParameters.adaptivePTime,Non-Severe,0,s4,Core,WebRTC: Signaling,2021-10-01T16:52:43Z
+1733868,Perma [Tier 2] /builds/worker/checkouts/gecko/testing/web-platform/tests/html/syntax/speculative-parsing/resources/stash.py:0 | Execution permissions on a source file (maybe-shebang-file-perm),Non-Severe,0,s4,Core,DOM: Core & HTML,2021-10-04T03:02:17Z
+1734074,"New wpt failures in /html/canvas/element/manual/wide-gamut-canvas/ [canvas-display-p3-drawImage.https.html, canvas-display-p3-pattern-image.html]",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-10-05T03:53:32Z
+1734434,"Upgrading Firefox 92.0.1 to 93.0 hangs on startup, uses gigabytes of memory",Severe,1,s2,Core,Internationalization: Localization,2021-10-06T17:04:27Z
+1734525,"Intermittent basic_compositor_video , dromaeo_css | application crashed [@ nsFileChannel::OpenContentStream]",Non-Severe,0,s4,Core,Networking,2021-10-07T04:25:18Z
+1734648,Crash in [@ replace_malloc_usable_size],Severe,1,s2,Core,Memory Allocator,2021-10-07T16:25:28Z
+1734775,bookmarks and history is not working,Severe,1,s1,Invalid Bugs,General,2021-10-08T06:43:19Z
+1735103,fission breaks 2nd level bank authentication mechanism,Severe,1,s1,Core,DOM: Navigation,2021-10-11T04:55:47Z
+1735430,Addon menus and application menu are broken under Wayland,Severe,1,s2,Core,Widget: Gtk,2021-10-12T23:19:02Z
+1735649,High frequency  /webdriver/tests/get_window_rect/user_prompts.py | test_accept_and_notify[capabilities0-alert-None] - webdriver.error.JavascriptErrorException: javascript error (500): JavaScriptError: Document was unloaded,Non-Severe,0,s4,Remote Protocol,Marionette,2021-10-13T20:46:58Z
+1735979,New wpt failures in /html/syntax/parsing/html5lib_innerHTML_foreign-fragment.html,Non-Severe,0,s4,Core,DOM: HTML Parser,2021-10-15T07:54:50Z
+1736220,Crash in [@ sctp_timeout_handler],Severe,1,s2,Core,WebRTC,2021-10-17T12:53:08Z
+1736930,Intermittent devtools/client/netmonitor/test/browser_net-ws-filter-freetext.js | Test timed out -,Non-Severe,0,s4,DevTools,Netmonitor,2021-10-20T23:29:56Z
+1737141,Intermittent dom/promise/tests/test_webassembly_compile.html | not cached yet,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-10-21T18:58:24Z
+1737770,"[Experiment] The Firefox logo icon is wrongly displayed instead of the ""umbrella"" one on the ""emotive-pin-firefox-modal"" from the ""Treatment B"" branch",Severe,1,s2,Firefox,Messaging System,2021-10-26T09:13:16Z
+1737789,Edit this site button remains selected if Esc is used to close it's corresponding window,Non-Severe,0,s4,Firefox,New Tab Page,2021-10-26T11:52:40Z
+1737831,Unnecessary space when sliding menubar down in fullscreen on new Macbook Pros with notch,Severe,1,s2,Core,Widget: Cocoa,2021-10-26T16:24:58Z
+1738565,Thunderbird Crash in [@ -[MOXWebAreaAccessible handleAccessibleEvent:]] on Mac,Severe,1,s2,Thunderbird,General,2021-10-31T03:23:43Z
+1738816,Raspberry Pi 4: Hardware rendering becomes broken after a few seconds. It can be fixed with gfx.webrender.pbo-uploads=false.,Severe,1,s2,Core,Graphics: WebRender,2021-11-02T00:50:24Z
+1738867,Some recurring events missing from agenda on first load,Severe,1,s1,Calendar,Provider: Local Storage,2021-11-02T09:59:58Z
+1739342,Intermittent [tier 2] dom/base/test/browser_aboutnewtab_process_selection.js | Uncaught exception - undefined - timed out after 50 tries.,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-11-04T10:36:58Z
+1739476,glxtest error when starting ESR 91.3.0 on Linux via ssh X forwarding,Non-Severe,0,s4,Core,Graphics: WebRender,2021-11-04T18:27:18Z
+1739502,XFA PDF not opening properly,Severe,1,s2,Firefox,PDF Viewer,2021-11-04T20:55:51Z
+1739561,"Broken ""Trips"" flight preview in Gmail, with flexbox nested in multicol",Severe,1,s2,Core,Layout: Flexbox,2021-11-05T05:25:29Z
+1739723,Intermittent browser/components/preferences/tests/<file>.js | application crashed [@ moz_xmalloc(unsigned int)] | after application terminated with exit code 1,Non-Severe,0,s4,Firefox,Address Bar,2021-11-05T22:04:34Z
+1739814,More potential non-ascii URI breakage from bug 1571672,Severe,1,s2,Thunderbird,General,2021-11-06T15:15:07Z
+1739927,Save emails as files breaks Windows file history,Severe,1,s2,Thunderbird,Mail Window Front End,2021-11-08T00:56:14Z
+1739940,Intermittent TEST-UNEXPECTED-NOTRUN | /pointerevents/pointerevent_touch-action-keyboard.html | touch-action attribute test - expected PASS,Non-Severe,0,s4,Core,DOM: Events,2021-11-08T06:26:09Z
+1740595,Replace date template in Merino URLs,Severe,1,s2,Firefox,Address Bar,2021-11-10T20:24:51Z
+1740597,"Intermittent GeckoProfiler.CPUUsage | Expected: (threadCPUDeltaZeroCount) > (threadCPUDeltaNonZeroCount), actual: 7 vs 14",Non-Severe,0,s4,Core,Gecko Profiler,2021-11-10T20:32:37Z
+1740709,"Intermittent netwerk/test/unit/test_odoh.js | test_strict_native_fallback - [test_strict_native_fallback : 1] Checking result for bar.example.com - ""127.0.0.1"" == ""2.2.2.2"" | After xpcshell return code: 0",Non-Severe,0,s4,Core,Networking,2021-11-11T12:44:41Z
+1741357,Intermittent [Tier 2] TEST-UNEXPECTED-TIMEOUT | /xhr/setrequestheader-before-open.htm | TestRunner hit external timeout (this may indicate a hang),Non-Severe,0,s4,Core,DOM: Networking,2021-11-16T08:25:43Z
+1741507,Intermittent TEST-UNEXPECTED-TIMEOUT | /IndexedDB/clone-before-keypath-eval.html | Index key path evaluations operate on a clone - Test timed out,Non-Severe,0,s4,Core,Storage: IndexedDB,2021-11-16T22:13:27Z
+1741858,"Intermittent test262/built-ins/Array/prototype/reduce/15.4.4.21-8-b-iii-1-4.js | (args: ""--dll /builds/worker/fetches/injector/libbreakpadinjector.so --no-blinterp --no-baseline --no-ion --more-compartments"") | (TIMEOUT) [300.0 s]",Non-Severe,0,s4,Core,JavaScript Engine,2021-11-18T13:07:16Z
+1741888,Autofill preview text can disclose sensitive information,Severe,1,s2,Toolkit,Form Autofill,2021-11-18T15:13:19Z
+1742260,Intermittent uriloader/exthandler/tests/mochitest/browser_download_spam_permissions.js | Cleanup function threw an exception - OperationError: Could not remove the non-empty directory at C:\Users\task_163744121014005\AppData\Local\Temp\1637444023082.,Non-Severe,0,s4,Firefox,File Handling,2021-11-20T21:45:54Z
+1742335,application allowing different values in password and confirm password,Severe,1,s2,Invalid Bugs,General,2021-11-22T07:29:15Z
+1742799,Intermittent [Tier 2] docshell/test/browser/browser_bug655273.js | Found a tab after previous test timed out: http://example.com/new_page -,Non-Severe,0,s4,Firefox,Menus,2021-11-24T12:52:19Z
+1742993,[VA-API] Crash in [@ pthread_setaffinity_np@@GLIBC_2.3.4],Severe,1,s2,Core,Security: Process Sandboxing,2021-11-25T15:53:05Z
+1743048,"Intermittent  dom/html/test/forms/test_input_password_show_password_button.html | after appending a character, string should have changed",Non-Severe,0,s4,Core,DOM: Core & HTML,2021-11-26T00:03:06Z
+1743061,Intermittent /css/cssom-view/scroll-behavior-main-frame-window.html | Main frame with smooth scroll-behavior ; scrollTo() with smooth behavior - assert_equals: Final value of scrollLeft expected 3870 but got 118,Non-Severe,0,s4,Core,DOM: CSS Object Model,2021-11-26T03:11:02Z
+1744183,Intermittent devtools/client/webconsole/test/browser/browser_webconsole_<random>.js | Uncaught exception - at chrome://mochitests/content/browser/devtools/client/shared/test/shared-head.js:1012 - Error: Failed waitFor():,Non-Severe,0,s4,DevTools,Console,2021-12-03T03:06:15Z
+1745170,table.copy does not consider whether tables are private or public,Severe,1,s2,Core,JavaScript: WebAssembly,2021-12-09T12:43:30Z
+1745564,AddressSanitizer: heap-use-after-free [@ new_<const char &>] with READ of size 1 through [@ mozilla::intl::DisplayNames::ComputeDateTimeDisplayNames],Severe,1,s2,Core,JavaScript: Internationalization API,2021-12-11T08:08:53Z
+1745846,Intermittent dom/ipc/tests/JSWindowActor/browser_event_listener.js | Uncaught exception - undefined - threw exception: AbortError: Actor 'SpecialPowers' destroyed before query 'Spawn' was resolved,Non-Severe,0,s4,Core,DOM: Content Processes,2021-12-13T23:35:06Z
+1745853,"Intermittent dom/media/webrtc/tests/mochitests/test_peerConnection_removeThenAddVideoTrackNoBundle.html | stats ICE connections matches expected A/V transports - got 1, expected 2",Non-Severe,0,s4,Core,WebRTC: Audio/Video,2021-12-14T00:33:46Z
+1745869,Twitter embeds load slowly (fission),Severe,1,s2,Core,Layout,2021-12-14T04:26:00Z
+1746443,Crash in [@ nsTSubstring<T>::Truncate],Severe,1,s2,Core,Networking,2021-12-16T16:36:27Z
+1746687,Compiler explorer not finding headers,Severe,1,s2,Developer Infrastructure,Source Code Analysis,2021-12-17T22:11:00Z
+1747013,Incorrect optimization about try catch,Severe,1,s2,Core,JavaScript Engine: JIT,2021-12-21T07:19:26Z
+1747157,A11y browser tests run in the parent process (chrome: true) can't use certain elements due to sanitizer,Severe,1,s2,Core,Disability Access APIs,2021-12-21T23:25:41Z
+1747357,Allow storage for replicates,Severe,1,s2,Tree Management,Perfherder,2021-12-23T07:18:35Z
+1747653,"Не отображается содержимое вкладки ""О программе""",Severe,1,s2,Invalid Bugs,General,2021-12-26T17:52:08Z
+1747707,"""mach try auto"" ran only non-mac builds for mac-only code",Severe,1,s2,Developer Infrastructure,Try,2021-12-27T11:19:35Z
+1747763,Intermittent TEST-UNEXPECTED-CRASH | /html/semantics/forms/the-form-element/form-requestsubmit.html | expected OK,Non-Severe,0,s4,Core,DOM: Core & HTML,2021-12-28T05:14:10Z
+1747813,browserAction popup HTML parser mistakenly blocked when navigated to another extension page with Fission enabled,Severe,1,s2,WebExtensions,General,2021-12-28T17:55:38Z
+1748135,no class name for class methods in stack trace,Non-Severe,0,s4,DevTools,Debugger,2022-01-01T14:33:18Z
+1748152,Intermittent TEST-UNEXPECTED-TIMEOUT | /cookies/attributes/domain.sub.html | Cookie returned for bare domain attribute following mismatched domain attribute (after redirect to same-origin page). - Test timed out,Non-Severe,0,s4,Core,Networking: Cookies,2022-01-01T22:17:00Z
+1748210,Hit MOZ_CRASH(nsSupportsPRUint32 not thread-safe) at xpcom/base/nsISupportsImpl.cpp:43,Severe,1,s2,Core,Networking: HTTP,2022-01-03T11:04:44Z
+1748281,"Intermittent TV devtools/client/storage/test/browser_storage_cache_overflow.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. -",Non-Severe,0,s4,DevTools,Storage Inspector,2022-01-03T17:39:12Z
+1748517,"Intermittent FATAL ERROR: AsyncShutdown timeout in profile-before-change Conditions: [{""name"":""Remote Settings profile-before-change"",""state"":""Remaining: 5 callbacks (importJSONDump-main-hijack-blocklists-3, importJSONDump-main-search-telemetry-4, importJ",Non-Severe,0,s4,Testing,web-platform-tests,2022-01-04T23:00:38Z
+1748706,Intermittent /dom/events/Event-timestamp-cross-realm-getter.html | event.timeStamp is initialized using event's relevant global object - assert_approx_equals: via Object.getOwnPropertyDescriptor expected 34.86 +/- 5 but got 58.54,Non-Severe,0,s4,Core,DOM: Core & HTML,2022-01-05T19:09:36Z
+1748900,Intermittent browser/base/content/test/touch/browser_menu_touch.js | Test timed out -,Non-Severe,0,s4,Firefox,General,2022-01-06T19:38:55Z
+1748912,Add null check in CanonicalBrowsingContext::RemoveFromSessionHistory,Severe,1,s2,Core,DOM: Navigation,2022-01-06T20:35:19Z
+1749020,Does not show error message for too short comment,Severe,1,s1,Invalid Bugs,General,2022-01-07T15:57:49Z
+1749142,Crash in [@ shutdownhang | mozilla::TaskController::GetRunnableForMTTask | nsThread::Shutdown | nsThreadManager::Shutdown],Severe,1,s2,Thunderbird,General,2022-01-08T18:14:03Z
+1749175,[Trees closed] requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://firefox-ci-tc.services.mozilla.com/api/index<...>,Severe,1,s1,Release Engineering,General,2022-01-09T02:50:39Z
+1749667,Keyboard commands broken by bug 371900,Severe,1,s2,Thunderbird,Upstream Synchronization,2022-01-12T09:05:50Z
+1749736,Crash in [@ nsCoreUtils::GetUIntAttr],Severe,1,s2,Core,Disability Access APIs,2022-01-12T15:26:11Z
+1749893,Update WEBRTC-SDP to version 0.3.9,Severe,1,s2,Core,WebRTC: Signaling,2022-01-13T04:48:31Z
+1749997,"If there is an empty entry in the registry for machine policies, user policies aren't read",Severe,1,s2,Firefox,Enterprise Policies,2022-01-13T15:19:15Z
+1750044,Permafail SUMMARY: ThreadSanitizer: data race /builds/worker/checkouts/gecko/ipc/glue/GeckoChildProcessHost.cpp:867:23 in SetAlreadyDead,Non-Severe,0,s4,Core,IPC,2022-01-13T17:23:06Z
+1750273,"Intermittent devtools/client/webconsole/test/browser/browser_jsterm_evaluation_context_selector_targets_update.js | A promise chain failed to handle a rejection: [Exception... ""Method not implemented""  nsresult: ""0x80004001 (NS_ERROR_NOT_IMPLEMENTED)""",Non-Severe,0,s4,DevTools,Console,2022-01-14T19:28:23Z
+1750443,"Crash in [@ WlCrashHandler]: ""wp_viewport@8197: error 0: wl_viewport.set_source sent with invalid values""",Severe,1,s2,Core,Widget: Gtk,2022-01-16T15:39:49Z
+1750603,fullscreen not connecting top left sides,Severe,1,s2,Core,DOM: Core & HTML,2022-01-17T16:55:32Z
+1751181,User is incorrectly logged out of dirtbike.ro website when using Avast,Non-Severe,0,s4,External Software Affecting Firefox,Other,2022-01-20T13:15:07Z
+1761850,Inconsistent results (f64.abs or f64.lt) on Intel vs M1 Mac,Severe,1,s2,Core,JavaScript: WebAssembly,2022-03-28T21:00:41Z
+1762116,Adding a global ARIA attribute to an element which has no Accessible should create an Accessible,Severe,1,s2,Core,Disability Access APIs,2022-03-30T06:30:10Z
+1762391,Intermittent dom/media/webrtc/tests/mochitests/test_peerConnection_simulcastAnswer_lowResFirst.html | candidate-pair.bytesReceived is a sane number (>500) for a short undefined test. value=396,Non-Severe,0,s4,Core,WebRTC: Audio/Video,2022-03-31T13:30:23Z
+1763343,Perma android Bgv builds gmake[1]: *** [/builds/worker/checkouts/gecko/build/moz-automation.mk:110: automation/buildsymbols] Error 2,Severe,1,s1,Firefox Build System,Task Configuration,2022-04-06T08:44:51Z
+1763390,Destroy the cycle collector explicitely in WorkerThreadPrimaryRunnable before checking the global scope sentinels.,Severe,1,s2,Core,DOM: Workers,2022-04-06T12:26:16Z
+1763574,Crash in [@ webrender::render_task_graph::RenderTaskGraphBuilder::end_frame],Severe,1,s2,Core,Graphics: WebRender,2022-04-07T09:02:05Z
+1763680,No video decode hardware acceleration [on twitch] since ~100.0b2,Severe,1,s2,Core,Audio/Video: Playback,2022-04-07T18:17:16Z
+1763848,Crash in [@ libc.so.6@0x1328a9 | libc.so.6@0xd7ff7 | libglib-2.0.so.0@0x92463],Severe,1,s2,Core,Security: Process Sandboxing,2022-04-08T19:17:12Z
+1764085,If the language is changed twice some of the strings are not translated,Severe,1,s2,Core,Internationalization,2022-04-11T13:41:12Z
+1764609,[perfdocs] Resolve all issues with running PerfDocs on Windows machines,Severe,1,s2,Testing,Performance,2022-04-13T18:29:34Z
+1764737,Crash [@ js::ModuleBuilder::processExportFrom(js::frontend::BinaryNode*)] with OOM,Severe,1,s2,Core,JavaScript Engine,2022-04-14T11:51:37Z
+1764753,Crash in [@ RtlpFreeHeapInternal | RtlFreeHeap | free_base | CPoolableObject::`vector deleting destructor'] and [@ CPlatform::PutWorkItem_NoPlatformLock],Severe,1,s2,Core,Graphics,2022-04-14T12:54:47Z
+1764875,codesandbox.io - CSS transform is blurry,Severe,1,s1,Core,Graphics: WebRender,2022-04-15T07:23:05Z
+1765049,"Possible download files like exe to user Startup folder on windows, which may cause RCE",Severe,1,s1,Firefox,Downloads Panel,2022-04-16T15:15:55Z
+1765065,Intermittent TEST-UNEXPECTED-TIMEOUT | /html/canvas/offscreen/shadows/2d.shadow.attributes.shadowBlur.valid.worker.html | TestRunner hit external timeout (this may indicate a hang),Non-Severe,0,s4,Core,DOM: Core & HTML,2022-04-16T23:45:43Z
+1765181,"Intermittent 04-18 16:14:07.301 F/MOZ_Assert( 3553): Assertion failure: 0, at /builds/worker/checkouts/gecko/gfx/webrender_bindings/RenderAndroidSurfaceTextureHost.cpp:117",Non-Severe,0,s4,Core,Graphics: WebRender,2022-04-18T17:33:44Z
+1765524,MacOS menu bar has extra apple icon while PiP window is in focus,Severe,1,s2,Toolkit,Picture-in-Picture,2022-04-20T12:37:20Z
+1765586,labels & print pop-ups print too small,Severe,1,s2,Core,Printing: Output,2022-04-20T16:13:54Z
+1765652,Fix netwerk/test/browser/browser_103_telemetry.js  with parent controlled loads,Non-Severe,0,s4,Core,Networking,2022-04-20T22:52:48Z
+1765759,SAW Images are failing to build,Non-Severe,0,s4,NSS,Build,2022-04-21T11:57:45Z
+1765869,Intermittent /scheduler/post-task-delay.any.html | Tests basic scheduler.postTask with a delay - assert_greater_than_equal: expected a number greater than or equal to 10 but got 9,Non-Severe,0,s4,Testing,web-platform-tests,2022-04-21T20:44:40Z
+1765891,Intermittent TEST-UNEXPECTED-TIMEOUT | browser/components/extensions/test/browser/browser_ext_tabs_events_order.js | application timed out after 370 seconds with no output | Force-terminating active process(es),Non-Severe,0,s4,WebExtensions,Untriaged,2022-04-21T22:47:05Z
+1766006,Intermittent browser/components/preferences/tests/browser_search_subdialogs_within_preferences_1.js | Test timed out | Uncaught exception received from previously timed out test - PreferencesSearchCompleted listener not removed before the end of test,Non-Severe,0,s4,Firefox,Settings UI,2022-04-22T14:53:02Z
+1766211,"Intermittent editor/reftests/spellcheck-superscript-2.html != editor/reftests/spellcheck-superscript-2-ref.html | image comparison, max difference: 0, number of differing pixels: 0",Non-Severe,0,s4,Core,DOM: Editor,2022-04-25T07:57:34Z
+1766272,Crash in [@ mozilla::CheckCheckedUnsafePtrs<T>::Check | mozilla::detail::SupportCheckedUnsafePtrImpl<T>::~SupportCheckedUnsafePtrImpl | RefPtr<T>::assign_assuming_AddRef | mozilla::dom::Worker::cycleCollection::Unlink],Severe,1,s2,Core,DOM: Workers,2022-04-25T15:31:14Z
+1766312,Intermittent toolkit/components/telemetry/tests/unit/test_ModulesPing.js | single tracking bug,Non-Severe,0,s4,Toolkit,Telemetry,2022-04-25T19:29:00Z
+1766400,[Prod] The Nimbus-Preview collection does not work anymore as we are unable to enroll in Preview experiments,Severe,1,s2,Firefox,Remote Settings Client,2022-04-26T09:27:27Z
+1766961,bookmark and history of firefox browser  are not working,Severe,1,s1,Invalid Bugs,General,2022-04-29T07:15:22Z
+1767240,"Intermittent dom/media/autoplay/test/mochitest/test_autoplay_policy.html | unexpected-crash-dump-found - This test left crash dumps behind, but we weren't expecting it to!",Non-Severe,0,s4,Core,Audio/Video: Playback,2022-05-02T09:41:31Z
+1767730,Intermittent devtools/client/webconsole/test/browser/browser_webconsole_warning_group_content_blocking.js | single tracking bug,Non-Severe,0,s4,DevTools,Console,2022-05-04T13:33:02Z
+1767891,"Assertion failure: silenceNeed == 0, at /builds/worker/checkouts/gecko/dom/media/DeviceInputTrack.cpp:145",Non-Severe,0,s4,Core,Audio/Video: MediaStreamGraph,2022-05-04T23:49:19Z
+1767926,Crash on browser when user provides very large inputs,Severe,1,s2,Core,Graphics: WebRender,2022-05-05T08:47:30Z
+1767993,startup Crash in [@ qipcap64.dll] (Forcepoint),Severe,1,s2,External Software Affecting Firefox,Other,2022-05-05T14:18:40Z
+1768351,"Intermittent uriloader/exthandler/tests/mochitest/browser_save_filenames.js | attachmentlink66 index was saved with the correct name when opened as attachment - Got ""index(1)"", expected ""index""",Non-Severe,0,s4,Firefox,File Handling,2022-05-07T23:54:04Z
+1768712,Intermittent browser/components/preferences/tests/browser_search_subdialogs_within_preferences_site_data.js | uncaught exception - TypeError: class heritage MozButton is not an object or null at @chrome://browser/content/preferences/findInPage.js:13:1,Non-Severe,0,s4,Firefox,Settings UI,2022-05-10T18:43:25Z
+1768777,This bag is about Bookmark and history,Severe,1,s1,Invalid Bugs,General,2022-05-11T04:35:01Z
+1768838,vaapi stop working and fallback to software decode after move video progress bar,Severe,1,s2,Core,Audio/Video: Playback,2022-05-11T10:26:17Z
+1769040,Intermittent browser/base/content/test/notificationbox/browser_notificationbar_telemetry.js | Test timed out -,Non-Severe,0,s4,Firefox,Tabbed Browser,2022-05-12T11:49:00Z
+1769175,Firefox doesn't allow typing any characters with the SHIFT key in ESXi VM console.,Non-Severe,0,s4,Web Compatibility,Site Reports,2022-05-13T01:18:38Z
+1769447,Intermittent /webdriver/tests/get_element_shadow_root/get.py | test_no_browsing_context - AssertionError: assert 'no such element' == 'no such window',Non-Severe,0,s4,Remote Protocol,Marionette,2022-05-15T16:36:17Z
+1769836,bookmark &history of firefox browser not working,Severe,1,s1,Invalid Bugs,General,2022-05-17T19:34:33Z
+1769898,"Intermittent comm/calendar/test/browser/providers/browser_caldavCalendar_uncached.js | Uncaught exception in test - calendar-month-day-box-item at week=1, day=5, index=1 did not appear in time - timed out after 50 tries.",Non-Severe,0,s4,Calendar,Provider: CalDAV,2022-05-18T06:07:10Z
+1769986,New tab page not working,Severe,1,s1,Invalid Bugs,General,2022-05-18T15:25:12Z
+1770085,"Intermittent image/test/reftest/generic/accept-image-catchall.html == image/test/reftest/generic/accept-image-catchall-ref.html | image comparison, max difference: 255, number of differing pixels: 10000",Non-Severe,0,s4,Core,Graphics: ImageLib,2022-05-19T02:15:45Z
+1770293,verify login page,Severe,1,s2,Invalid Bugs,General,2022-05-20T05:10:13Z
+1770374,"Save Page As Web Page, HTML Only will attempt to resubmit cgi to save instead of using cached or displayed content",Severe,1,s1,Invalid Bugs,General,2022-05-20T09:52:18Z
+1770458,perma [tier2] /builds/worker/checkouts/gecko/dom/ipc/ProcessPriorityManager.cpp:514:10: error: '%s' directive argument is null [-Werror=format-overflow=],Non-Severe,0,s4,Firefox Build System,General,2022-05-20T16:23:34Z
+1770692,Crash in [@ cubeb_coreaudio::backend::create_stream_description],Severe,1,s2,Core,Audio/Video: cubeb,2022-05-23T08:02:33Z
+1770828,Intermittent /html/canvas/element/drawing-text-to-the-canvas/direction-inherit-rtl.html | application crashed [@ _g_log_abort],Non-Severe,0,s4,Core,DOM: Core & HTML,2022-05-23T19:20:06Z
+1770844,Improve the UI of the display name field on contact edit form,Severe,1,s2,Thunderbird,Address Book,2022-05-23T21:07:19Z
+1771168,Some recurring events still missing from agenda on first load,Severe,1,s1,Calendar,Provider: Local Storage,2022-05-25T15:55:40Z
+1771865,Saved PPTX or zip attachment is corrupted,Severe,1,s2,Thunderbird,Message Reader UI,2022-05-31T08:22:32Z
+1771898,[NVIDIA] vaapi is no longer used: egl: failed to create dri2 screen,Non-Severe,0,s4,Core,Audio/Video: Playback,2022-05-31T11:55:38Z
+1772170,Crash in [@ mozilla::a11y::TextRange::CommonParent],Severe,1,s2,Core,Disability Access APIs,2022-06-01T16:31:00Z
+1772384,"Intermittent backgrounds/background-repeat-large-area.html == backgrounds/background-repeat-large-area-ref.html | image comparison, max difference: 74, number of differing pixels: 49600",Non-Severe,0,s4,Core,Graphics,2022-06-02T18:43:38Z
+1772806,Lots of wake-ups triggered by garbage collection in a background tab,Non-Severe,0,s4,Core,JavaScript: GC,2022-06-06T10:14:45Z
+1773392,Startup Crash in [@ TLSAddToMap] with Windows 11.,Severe,1,s2,Thunderbird,General,2022-06-08T22:35:58Z
+1773696,`sendWheelEvent` should check `StaticPrefs::test_events_async_enabled()` before dispatching to parent,Severe,1,s2,Core,DOM: Events,2022-06-10T14:31:10Z
+1773992,Intermittent TEST-UNEXPECTED-TIMEOUT | /css/CSS2/backgrounds/background-001.xht | expected PASS,Non-Severe,0,s4,Core,CSS Parsing and Computation,2022-06-13T12:44:49Z
+1774129,"Perma /builds/worker/checkouts/gecko/widget/gtk/DMABufSurface.cpp:467:14: error: format specifies type 'unsigned long' but the argument has type 'uint64_t' (aka 'unsigned long long') [-Werror,-Wformat]",Non-Severe,0,s4,Core,Widget: Gtk,2022-06-14T04:49:30Z
+1774249,Crash in [@ OOM | unknown | js::AutoEnterOOMUnsafeRegion::crash | js::MovableCellHasher<T>::hash],Severe,1,s2,Core,JavaScript: GC,2022-06-14T16:44:58Z
+1774282,Intermittent org.mozilla.geckoview.test.SelectionActionDelegateTest#deactivate[#textarea] | org.mozilla.geckoview.test.util.UiThreadUtils$TimeoutException: Timed out after 30000ms,Non-Severe,0,s4,GeckoView,General,2022-06-14T20:33:33Z
+1774404,"Intermittent TV netwerk/test/browser/browser_103_preload.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. -",Non-Severe,0,s4,Core,Networking,2022-06-15T13:04:43Z
+1774449,ARM64 trap exit stub may access misaligned SP,Severe,1,s2,Core,JavaScript: WebAssembly,2022-06-15T16:15:29Z
+1774468,Intermittent dom/xhr/tests/test_temporaryFileBlob.html | Test timed out. -,Non-Severe,0,s4,Core,DOM: Networking,2022-06-15T17:18:36Z
+1775056,Intermittent leakcheck | socket X bytes leaked (Destroy),Non-Severe,0,s4,Core,WebRTC,2022-06-20T11:22:50Z
+1775180,"Intermittent /screen-capture/permissions-policy-audio.https.sub.html | Default ""display-capture"" permissions policy [""self""] allows the top-level document. - promise_test: Unhandled rejection with value: object ""InvalidStateError: getDisplayMedia requ",Non-Severe,0,s4,Core,WebRTC: Audio/Video,2022-06-21T00:34:23Z
+1775579,Intermittent browser/components/extensions/test/browser/browser_ext_tabs_executeScript_bad.js | single tracking bug,Non-Severe,0,s4,WebExtensions,Untriaged,2022-06-22T19:15:00Z
+1775722,Intermittent browser/base/content/test/general/browser_documentnavigation.js | single tracking bug,Non-Severe,0,s4,Firefox,General,2022-06-22T19:52:25Z
+1775986,Intermittent dom/ipc/tests/JSWindowActor/browser_contentWindow.js | single tracking bug,Non-Severe,0,s4,Core,DOM: Content Processes,2022-06-22T21:09:34Z
+1775999,Intermittent browser/base/content/test/fullscreen/browser_fullscreen_window_focus.js | single tracking bug,Non-Severe,0,s4,Core,DOM: Core & HTML,2022-06-22T21:13:31Z
+1776014,Intermittent uriloader/exthandler/tests/mochitest/browser_auto_close_window.js | single tracking bug,Non-Severe,0,s4,Firefox,File Handling,2022-06-22T21:17:53Z
+1776394,Intermittent TEST-UNEXPECTED-TIMEOUT | toolkit/components/telemetry/tests/unit/test_HealthPing.js | Test timed out,Non-Severe,0,s4,Toolkit,Telemetry,2022-06-24T11:01:22Z
+1776525,"""FLAG_IMMUTABLE or FLAG_MUTABLE be specified when creating a PendingIntent"" Crash in [@ java.lang.IllegalArgumentException: at android.app.PendingIntent.checkFlags(PendingIntent.java)]",Severe,1,s2,Fenix,General,2022-06-25T01:01:59Z
+1776633,Crash in [@ OOM | large | NS_ABORT_OOM | GatherLine] via MimeInlineText_convert_and_parse_line,Non-Severe,0,s4,MailNews Core,MIME,2022-06-27T06:11:36Z
+1776935,Update vendored pipewire headers for libwebrtc,Severe,1,s2,Core,WebRTC,2022-06-28T19:40:39Z
+1777007,Intermittent dom/serviceworkers/test/test_post_message.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Service Workers,2022-06-28T20:23:19Z
+1777285,"Sort By combobox on the Global search results page is stuck on Relevance, cannot sort by date",Severe,1,s2,Thunderbird,Search,2022-06-29T16:35:48Z
+1777296,"""Inspect"" background script doesn't work for ""Firefox for Android"" addons",Severe,1,s2,DevTools,about:debugging,2022-06-29T17:27:34Z
+1777718,[macOS] New filter window size reducing each time opened,Non-Severe,0,s4,Thunderbird,Theme,2022-07-01T16:39:17Z
+1777976,"Intermittent gfx/layers/apz/test/mochitest/test_group_zoom.html | helper_zoomed_pan.html | y-offset was adjusted - got +0, expected 12.5",Non-Severe,0,s4,Core,Panning and Zooming,2022-07-04T14:02:50Z
+1777980,Intermittent testing/marionette/harness/marionette_harness/tests/unit/test_reftest.py TestReftest.test_cache_multiple_sizes | AssertionError: 'PASS' != 'FAIL',Non-Severe,0,s4,Testing,Marionette Client and Harness,2022-07-04T14:52:44Z
+1778081,"I move an email from SPAM to INBOX, it is fine.  I go back later, and header is correct but email is a different email than what I moved.",Severe,1,s2,Thunderbird,Folder and Message Lists,2022-07-05T10:42:39Z
+1778235,Intermittent /webrtc/RTCPeerConnection-relay-canvas.https.html | Two PeerConnections relaying a canvas source - assert_approx_equals: expected 183.6 +/- 2 but got 181.57999999999998,Non-Severe,0,s4,Core,WebRTC,2022-07-05T23:45:29Z
+1778267,Firefox does not open when clicking links in applications,Severe,1,s2,Firefox,Launcher Process,2022-07-06T07:12:07Z
+1778872,Intermittent [tier 2] gfx/layers/apz/test/mochitest/test_group_wheelevents.html | helper_relative_scroll_smoothness.html?input-type=wheel&scroll-method=scrollBy | scroll offset should be strictly monotonically increasing previous offset: 0.01666259765625,Non-Severe,0,s4,Core,Panning and Zooming,2022-07-10T05:04:49Z
+1779628,Intermittent Main app process exited normally | application crashed [@ JS::loader::ScriptLoadRequest::GetWorkerLoadContext()],Severe,1,s2,Core,JavaScript Engine,2022-07-14T18:45:54Z
+1779704,Bookmarks & History of firefox browser not working properly,Severe,1,s2,Invalid Bugs,General,2022-07-15T06:38:02Z
+1779973,Unable to connect to HP printer https management interface with SEC_ERROR_LIBRARY_FAILURE,Non-Severe,0,s4,Core,Security: PSM,2022-07-18T08:16:42Z
+1780011,"Intermittent Main app process exited normally | application crashed [@ mozilla::dom::workerinternals::loader::WorkerScriptLoader::OnStreamComplete(JS::loader::ScriptLoadRequest*, nsresult)]",Severe,1,s2,Core,DOM: Workers,2022-07-18T12:47:45Z
+1780182,Gucci Grip game doesn't load,Severe,1,s2,Web Compatibility,Site Reports,2022-07-19T09:49:46Z
+1780438,[comm-esr91] makecab toolchain failed to build for 91.12 release,Severe,1,s1,Thunderbird,Build Config,2022-07-20T18:19:25Z
+1780617,Perma [tier 2] TEST-UNEXPECTED-TIMEOUT | /dom/events/scrolling/scrollend-event-fired-after-snap.html | Tests that scrollend is fired after fling snap animation completion. - Test timed out,Non-Severe,0,s4,Core,DOM: Core & HTML,2022-07-21T17:33:24Z
+1780741,Crash [@ mozilla::dom::ExternalHelperAppParent::RecvOnStartRequest] or [@ mozilla::dom::ExternalHelperAppParent::RecvOnDataRequest],Severe,1,s2,Firefox,File Handling,2022-07-22T08:42:24Z
+1781299,Intermittent toolkit/components/downloads/test/unit/test_DownloadCore.js | single tracking bug,Non-Severe,0,s4,Toolkit,Downloads API,2022-07-26T16:36:59Z
+1782079,Intermittent TVw ::: Test verification FAIL | TinderboxPrint: Per-test run of .../blob-composite-blob-reads.any.js<br/>: FAILURE,Non-Severe,0,s4,Core,Storage: IndexedDB,2022-07-28T16:33:32Z
+1782176,"Intermittent LeakSanitizer | leak at already_AddRefed, NS_NewCancelableRunnableFunction, CallbackHolder::CallbackHolder, nsPipeInputStream::AsyncWait",Non-Severe,0,s4,Core,Storage: IndexedDB,2022-07-29T07:09:50Z
+1782266,Intermittent remote/shared/messagehandler/test/browser/broadcast/browser_only_content_process.js | single tracking bug,Non-Severe,0,s4,Remote Protocol,Agent,2022-07-29T17:33:31Z
+1782482,Crash in [@ _platform_strlcpy],Severe,1,s2,Core,Widget: Cocoa,2022-08-01T10:13:23Z
+1782643,Intermittent image/test/mochitest/test_removal_ondecode.html | single tracking bug,Non-Severe,0,s4,Core,Graphics: ImageLib,2022-08-02T03:03:28Z
+1782666,Intermittent TEST-UNEXPECTED-TIMEOUT | /css/CSS2/positioning/absolute-non-replaced-height-002.xht | expected PASS,Non-Severe,0,s4,Core,CSS Parsing and Computation,2022-08-02T08:33:01Z
+1782707,"TB 102.0.2 Problems fetching, displaying new mail, especially in local folders, after upgrade to 102; many errors in console log",Severe,1,s2,Thunderbird,General,2022-08-02T12:20:06Z
+1782783,Intermittent accessible/tests/browser/events/browser_test_focus_urlbar.js | single tracking bug,Non-Severe,0,s4,Core,Disability Access APIs,2022-08-02T18:24:10Z
+1783197,Firefox View collapse arrows are not visible with High Contrast on hover,Severe,1,s2,Firefox,Firefox View,2022-08-04T13:49:24Z
+1783217,Intermittent [tier 2] CCOV Windows Wd TEST-UNEXPECTED-TIMEOUT | expected OK (shutdown hang - WARNING: Process <PID> may be hanging at shutdown; will wait for up to <TIME>ms),Non-Severe,0,s4,Testing,Code Coverage,2022-08-04T15:07:43Z
+1783417,Too many Chat contact requests cause email message pane to be invisible/inaccessible,Severe,1,s2,Chat Core,XMPP,2022-08-05T12:35:41Z
+1783449,Cannot see unread emails,Non-Severe,0,s4,Thunderbird,Folder and Message Lists,2022-08-05T17:21:30Z
+1783502,Intermittent TEST-UNEXPECTED-TIMEOUT | /infrastructure/assumptions/allowed-to-play.html | <audio> autoplay - Test timed out,Non-Severe,0,s4,Testing,web-platform-tests,2022-08-06T09:41:13Z
+1784001,Intermittent margin-collapsing/fieldset-child-1.html == margin-collapsing/fieldset-child-1-ref.html | load failed: timed out waiting for test to complete (waiting for onload scripts to complete),Non-Severe,0,s4,Core,Layout: Block and Inline,2022-08-10T06:11:01Z
+1784332,Check if a test needs to be skipped after the configs are setup,Severe,1,s2,Testing,Talos,2022-08-11T18:11:53Z
+1784488,[Colorway-Closet] Colorways Modal's initial size is too small on macOS,Severe,1,s2,Firefox,Theme,2022-08-12T14:59:21Z
+1784585,Perma [Tier 2] TEST-UNEXPECTED-TIMEOUT | tools/code-coverage/tests/xpcshell/test_basic_child_and_parent.js | Test timed out,Non-Severe,0,s4,Testing,Code Coverage,2022-08-13T00:02:14Z
+1784742,Intermittent browser/components/resistfingerprinting/test/mochitest/test_pointer_event.html | single tracking bug,Non-Severe,0,s4,Core,Privacy: Anti-Tracking,2022-08-14T09:32:28Z
+1784769,Intermittent browser/components/screenshots/tests/browser/browser_screenshots_test_toggle_pref.js | single tracking bug,Non-Severe,0,s4,Firefox,Screenshots,2022-08-14T14:33:55Z
+1784983,Crash in [@ mozilla::net::UrlClassifierFeatureEmailTrackingDataCollection::ProcessChannel],Severe,1,s1,Core,Privacy: Anti-Tracking,2022-08-15T21:27:33Z
+1785031,importing secret key impossible after importing profile,Severe,1,s2,MailNews Core,Security: OpenPGP,2022-08-16T07:52:53Z
+1785046,"""Save as PDF"" hangs the browser when file-to-be-saved is on virtual disk (i.e. a remote/slow network drive)",Severe,1,s2,Core,Printing: Output,2022-08-16T10:38:53Z
+1785221,Intermittent css-disabled<enabled>/fieldset/fieldset-enabled.html == css-disabled<enabled>/fieldset/fieldset-ref.html | load failed: timed out waiting for test to complete (waiting for onload scripts to complete),Non-Severe,0,s4,Core,Layout: Form Controls,2022-08-17T11:32:12Z
+1785490,Intermittent /IndexedDB/idbobjectstore_getKey.any.js | single tracking bug,Non-Severe,0,s4,Core,Storage: IndexedDB,2022-08-17T21:57:07Z
+1785494,Intermittent /svg/painting/reftests/display-none-mask.html | single tracking bug,Non-Severe,0,s4,Core,SVG,2022-08-17T21:58:40Z
+1785595,Intermittent /html/browsers/browsing-the-web/navigating-across-documents/replace-before-load/a-user-click.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Core & HTML,2022-08-17T22:29:24Z
+1785632,"Intermittent Assertion failure: false (No pending composition but received unexpected commit event), at /builds/worker/checkouts/gecko/widget/ContentCache.cpp:1367",Non-Severe,0,s4,Core,DOM: UI Events & Focus Handling,2022-08-17T22:40:52Z
+1785671,Intermittent dom/base/test/useractivation/test_clipboard_noeditor.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Core & HTML,2022-08-17T22:51:52Z
+1785940,Crash in [@ mozilla::ipc::FatalError | mozilla::ipc::IProtocol::HandleFatalError | IPC::ParamTraits<mozilla::dom::IPCBlob>::Write],Severe,1,s2,Core,DOM: Content Processes,2022-08-18T23:19:13Z
+1786108,Intermittent forms/input/hidden/border.html == about:blank | load failed: timed out waiting for test to complete (waiting for onload scripts to complete),Non-Severe,0,s4,Core,Layout: Form Controls,2022-08-19T23:13:41Z
+1786445,Intermittent TVw [tier 2] ::: Test verification FAIL | TinderboxPrint: Per-test run of .../read-media/cross-origin-video.html<br/>: FAILURE,Non-Severe,0,s4,Core,DOM: Core & HTML,2022-08-23T01:08:13Z
+1786926,Intermittent image/test/reftest/ico/cur/wrapper.html?pointer.cur == image/test/reftest/ico/cur/wrapper.html?pointer.png | load failed: timed out waiting for test to complete (waiting for onload scripts to complete),Non-Severe,0,s4,Core,Graphics: ImageLib,2022-08-24T18:06:51Z
+1786986,Intermittent dom/serviceworkers/test/browser_storage_recovery.js | single tracking bug,Non-Severe,0,s4,Core,DOM: Service Workers,2022-08-24T21:29:36Z
+1787014,Intermittent devtools/client/accessibility/test/browser/browser_accessibility_tabbing_order_highlighter_iframe_picker.js | single tracking bug,Non-Severe,0,s4,DevTools,Accessibility Tools,2022-08-24T21:54:46Z
+1788205,X11+Xwayland: black window when launched. Possibly caused by Xwayland-on-demand or Firefox race condition when switching between composited/non-composited X11,Severe,1,s2,Core,Widget: Gtk,2022-08-31T11:16:17Z
+1788415,Intermittent TVw ::: Test verification FAIL | TinderboxPrint: Per-test run of .../contain-intrinsic-size-009.html<br/>: FAILURE,Non-Severe,0,s4,Core,Layout,2022-08-31T19:04:28Z
+1788530,Fenix hangs and memory usage jumps on theguardian.com when opening headlines in new tab,Severe,1,s2,Fenix,Performance,2022-08-31T21:19:22Z
+1788565,Intermittent css-placeholder/css-restrictions.html == css-placeholder/css-restrictions-ref.html | single tracking bug,Non-Severe,0,s4,Core,Layout: Form Controls,2022-09-01T03:59:36Z
+1788643,Add a cron task to the fenix repo for our perf tests,Severe,1,s2,Testing,Raptor,2022-09-01T12:03:21Z
+1788970,Intermittent browser/components/extensions/test/browser/browser_ext_tabs_query.js | single tracking bug,Non-Severe,0,s4,WebExtensions,Untriaged,2022-09-02T17:09:57Z
+1789190,High frequency /resource-timing/no-entries-for-cross-origin-css-fetched.sub.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Performance,2022-09-05T06:13:25Z
+1789534,"Intermittent LeakSanitizer | leak at sqlite3MemMalloc, sqlite3Malloc, sqlite3MallocZero, pthreadMutexAlloc",Non-Severe,0,s4,Core,DOM: Core & HTML,2022-09-06T23:49:44Z
+1789625,"[Colorway Closet] The success checkmark is misaligned with the ""Make Firefox Home your colorful homepage"" text",Non-Severe,0,s4,Firefox,Theme,2022-09-07T12:29:54Z
+1790000,On Automation mozlint output file handler should be closed,Severe,1,s2,Developer Infrastructure,Lint and Formatting,2022-09-09T10:08:47Z
+1790350,Intermittent svg/smil/sort/sort-startAfter-1.svg == svg/smil/sort/sort-startAfter-1-ref.svg | load failed: timed out waiting for test to complete (waiting for onload scripts to complete),Non-Severe,0,s4,Core,SVG,2022-09-12T11:07:37Z
+1790435,VoiceOver quick navigation keys stopped working with Firefox 105 Beta under Mac OS Ventura,Severe,1,s2,Core,Disability Access APIs,2022-09-12T16:16:00Z
+1790486,Intermittent image/test/reftest/ico/ico-bmp-corrupted/wrapper.html?invalid-bpp.ico == about:blank | load failed: timed out waiting for test to complete (trying to get into WaitForTestEnd),Non-Severe,0,s4,Core,Graphics: ImageLib,2022-09-12T21:02:12Z
+1790504,Intermittent /mediacapture-streams/MediaStreamTrack-getCapabilities.https.html | single tracking bug,Non-Severe,0,s4,Core,Audio/Video: MediaStreamGraph,2022-09-12T22:49:24Z
+1790607,Crash in [@ nsHostResolver::CompleteLookupLocked],Severe,1,s2,Core,Networking: DNS,2022-09-13T12:58:55Z
+1790610,"Detect, report and repair Thunderbird key storage corruption",Severe,1,s2,MailNews Core,Security,2022-09-13T13:07:11Z
+1790809,two private browsing shortcuts are sometimes created,Severe,1,s2,Firefox,Shell Integration,2022-09-14T14:45:12Z
+1790854,Intermittent gfx/layers/apz/test/mochitest/test_group_scrollend.html | single tracking bug,Non-Severe,0,s4,Core,Panning and Zooming,2022-09-14T18:20:52Z
+1791152,Crash in [@ mozilla::a11y::Accessible::IsLocal],Severe,1,s2,Core,Disability Access APIs,2022-09-16T07:38:25Z
+1791184,Intermittent Main app process exited normally | application crashed [@ RefPtr<mozilla::dom::StrongWorkerRef>::get() const],Severe,1,s2,DevTools,General,2022-09-16T14:08:35Z
+1791285,Intermittent urllib.error.HTTPError: HTTP Error 404: Not Found,Non-Severe,0,s4,Testing,Mozbase,2022-09-17T20:11:34Z
+1791499,Intermittent leakcheck | socket 200 bytes leaked (Destroy),Non-Severe,0,s4,Core,DOM: Navigation,2022-09-20T06:00:22Z
+1791556,Intermittent layout/base/tests/marionette/test_accessiblecaret_selection_mode.py AccessibleCaretSelectionModeTestCase.test_long_press_to_select_a_word_textarea | marionette_driver.errors.JavascriptException: [Exception...,Non-Severe,0,s4,Core,Layout,2022-09-20T12:25:14Z
+1791809,Hit MOZ_CRASH(attempt to multiply with overflow) at /third_party/rust/wgpu-core/src/command/transfer.rs:268,Severe,1,s2,Core,Graphics: WebGPU,2022-09-21T15:33:56Z
+1791917,Intermittent /html/semantics/embedded-content/the-iframe-element/sandbox-toggle-in-inactive-document-crash.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Core & HTML,2022-09-22T01:26:41Z
+1791998,Disable total cookie protection popup on fenix,Severe,1,s2,Testing,Raptor,2022-09-22T12:34:59Z
+1792708,Crash in [@ mozilla::Maybe<T>::operator=] from StickyPositionInfo,Severe,1,s2,Core,Panning and Zooming,2022-09-28T14:30:10Z
+1792800,Intermittent [TV] TEST-UNEXPECTED-TIMEOUT | devtools/client/webconsole/test/browser/browser_jsterm_screenshot_command_selector.js | application timed out after 370 seconds with no output,Non-Severe,0,s4,DevTools,Console,2022-09-29T10:08:56Z
+1792834,"Intermittent org.mozilla.geckoview.test.SelectionActionDelegateTest#request[#iframe] | application crashed [@ mozilla::layers::RemoteContentController::NotifyScaleGestureCompleteInProcess(mozilla::layers::ScrollableLayerGuid const&, float)]",Severe,1,s2,GeckoView,General,2022-09-29T14:38:29Z
+1793392,Undefined symbols uprofiler_register_thread and uprofiler_unregister_thread,Severe,1,s2,Core,Audio/Video: cubeb,2022-10-03T07:26:34Z
+1793407,Crash in [@ mozilla::dom::WorkerLoadContext::IsTopLevel] called from CacheLoadHandler,Severe,1,s2,Core,DOM: Workers,2022-10-03T09:46:01Z
+1793419,Screenreader does not read annotated text in PDF documents,Severe,1,s2,Firefox,PDF Viewer,2022-10-03T11:35:40Z
+1793432,Can't select previously inserted text after saving to PDF,Non-Severe,0,s4,Firefox,PDF Viewer,2022-10-03T12:24:01Z
+1793610,"Artifact builds for MacOS as generated in CI always crash on startup on M1 hardware due to ""Code Signature Invalid""",Severe,1,s2,Firefox Build System,General,2022-10-04T13:44:39Z
+1793627,afterprint event is triggered when the print dialog is opened,Severe,1,s2,Toolkit,Printing,2022-10-04T14:52:18Z
+1793693,Google Docs toolbar icons disappearing,Severe,1,s2,Core,Graphics: WebRender,2022-10-04T22:24:47Z
+1793829,Re-run window.open with same windowName allow focus stealing can be used to overlap fullscreen notification toast,Severe,1,s2,Core,DOM: UI Events & Focus Handling,2022-10-05T18:55:16Z
+1793887,Codepen demo is slower with gpu-canvas compared to non-gpu-canvas,Non-Severe,0,s4,Core,Graphics: Canvas2D,2022-10-06T03:11:40Z
+1793911,Crash in [@ mozilla::widget::TSFTextStore::ContentForTSF] likely caused by Google Japanese IME,Severe,1,s2,Core,DOM: UI Events & Focus Handling,2022-10-06T08:14:43Z
+1794038,Intermittent toolkit/components/glean/tests/xpcshell/test_GIFFT.js | single tracking bug,Non-Severe,0,s4,Toolkit,Telemetry,2022-10-06T20:51:19Z
+1794064,Crash in [@ RtlpFreeHeapInternal | RtlFreeHeap | aswjsflt64.dll.t01],Severe,1,s1,External Software Affecting Firefox,Other,2022-10-07T00:29:15Z
+1794073,Intermittent gfx/tests/reftest/1761685-1.html != gfx/tests/reftest/1761685-1-ref.html | load failed: timed out waiting for test to complete (waiting for onload scripts to complete),Non-Severe,0,s4,Core,Graphics,2022-10-07T03:37:00Z
+1794084,[Bug][a11y]: Youtube videos cannot be selected with Talkback,Severe,1,s2,Core,Disability Access APIs,2022-10-07T07:37:51Z
+1794265,Using GMail compose with Firefox Nightly and screen readers freezes browser,Severe,1,s2,Core,Disability Access APIs,2022-10-08T15:55:58Z
+1794626,Add telemetry to capture invert colors usage on mac,Non-Severe,0,s4,Core,Disability Access APIs,2022-10-11T16:20:30Z
+1794652,"Consider removing ""insufficient"" page load timing probes like TIME_TO_*",Non-Severe,0,s4,Core,Performance Engineering,2022-10-11T18:44:32Z
+1795184,"[Docs] [Cleanup] Update the ""Metrics we collect"" page",Non-Severe,0,s4,Firefox,Messaging System,2022-10-14T00:33:54Z
+1795228,Intermittent /fetch/metadata/generated/element-meta-refresh.optional.sub.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Networking,2022-10-14T08:21:15Z
+1795559,Intermittent dom/canvas/test/test_canvas_focusring.html | single tracking bug,Non-Severe,0,s4,Core,Graphics: Canvas2D,2022-10-15T21:44:27Z
+1795845,"Assertion failure: isDouble(), at js/Value.h:916 with enableShellAllocationMetadataBuilder and module",Severe,1,s2,Core,JavaScript Engine,2022-10-18T09:57:14Z
+1795987,Intermittent [TV] layout/painting/crashtests/1667503-1.html | load failed: timed out waiting for pending paint count to reach zero (waiting for updateCanvasPending),Non-Severe,0,s4,Core,Web Painting,2022-10-18T20:19:58Z
+1796534,[Ubuntu22] Firefox Nightly randomly freeze and becomes unresponsive,Severe,1,s2,Core,Widget: Gtk,2022-10-20T09:17:14Z
+1796730,Toolbox / window top border is a different version of the accent colour to the window side borders,Non-Severe,0,s4,Firefox,Theme,2022-10-21T02:50:32Z
+1796901,"Assertion failure: zoneIsDead, at js/src/gc/GC.cpp:2083",Severe,1,s2,Core,JavaScript: GC,2022-10-22T09:45:07Z
+1797069,[Bug]: Free media content from Alaska Airlines Gogo inflight services reported as not working on Fenix,Severe,1,s2,Core,Audio/Video: Playback,2022-10-24T11:55:58Z
+1797199,Intermittent browser/components/places/tests/browser/browser_library_open_bookmark.js | single tracking bug,Non-Severe,0,s4,Firefox,Bookmarks & History,2022-10-24T22:13:43Z
+1797205,WPT test pages in different origin should be in different processes,Non-Severe,0,s4,Core,DOM: Content Processes,2022-10-24T22:43:14Z
+1797808,Collecting CPU and memory metrics via glean times out pageload test,Severe,1,s2,Testing,Raptor,2022-10-27T17:38:22Z
+1798756,Running `mots clean` is duplicating user metadata into emeritus lists,Severe,1,s2,Conduit,mots,2022-11-02T18:41:39Z
+1798798,"Window prompt with long description hides fullscreen notification, leads to spoof",Severe,1,s2,Fenix,Browser Engine,2022-11-02T22:13:57Z
+1799016,Crash in [@ mozilla::wr::RenderThread::SingletonGLForCompositorOGL],Severe,1,s2,Core,Graphics: WebRender,2022-11-03T22:15:32Z
+1799051,Intermittent toolkit/mozapps/extensions/test/browser/browser_about_debugging_link.js | single tracking bug,Non-Severe,0,s4,Toolkit,Add-ons Manager,2022-11-04T01:00:38Z
+1799107,Worklet.addModule should return AbortError when importing a non-existent script,Severe,1,s2,Core,DOM: Core & HTML,2022-11-04T11:30:38Z
+1799208,crash near null in [@ nsIFrame::IsFocusable],Severe,1,s2,Core,Disability Access APIs,2022-11-04T20:14:19Z
+1799326,Crash in [@ RefPtr<T>::assign_assuming_AddRef | RefPtr<T>::operator= | mozilla::dom::BrowsingContextWebProgress::ContextReplaced],Severe,1,s2,Core,DOM: Navigation,2022-11-06T08:39:09Z
+1799449,Intermittent gfx/layers/apz/test/mochitest/browser_test_background_tab_scroll.js | single tracking bug,Non-Severe,0,s4,Core,Panning and Zooming,2022-11-07T12:50:45Z
+1799932,Frequent crashes related to changing the extmap for mid,Severe,1,s2,Core,WebRTC: Signaling,2022-11-09T17:29:19Z
+1799979,Intermittent image/test/reftest/bmp/bmpsuite/q/rgb32-7187.bmp | application timed out after 370 seconds with no output,Non-Severe,0,s4,Core,Graphics: ImageLib,2022-11-09T21:12:41Z
+1799988,Intermittent browser/components/extensions/test/browser/browser_ext_sessions_forgetClosedTab.js | single tracking bug,Non-Severe,0,s4,WebExtensions,Untriaged,2022-11-09T21:52:54Z
+1800068,"If the Sponsored Tile via Pocket was visited at least two times, after the impression cap is hit, it will be replaced with a history tile",Non-Severe,0,s4,Firefox,New Tab Page,2022-11-10T12:47:58Z
+1800225,"Exception: The ""build"" site is out-of-date, even though it has already been activated. Was it modified while this Mach process was running?",Severe,1,s2,Firefox Build System,Mach Core,2022-11-11T12:01:38Z
+1800551,Intermittent dom/serviceworkers/test/test_importscript_mixedcontent.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Service Workers,2022-11-14T23:31:57Z
+1800556,Intermittent [tier 2] /css/css-contain/container-queries/crashtests/br-crash.html | single tracking bug,Non-Severe,0,s4,Core,Layout,2022-11-15T00:18:04Z
+1800653,Perma TEST-UNEXPECTED-FAIL | toolkit/components/cookiebanners/test/browser/browser_bannerClicking_events.js | Uncaught exception in test - [Exception... when Gecko 109 merges to Beta on 2022-12-12,Severe,1,s2,Core,Privacy: Anti-Tracking,2022-11-15T15:02:39Z
+1800736,"Assertion failure: hyperAcc, at /builds/worker/checkouts/gecko/accessible/base/TextLeafRange.cpp:1345",Severe,1,s2,Core,Disability Access APIs,2022-11-15T20:45:26Z
+1800880,Clipchamp not supported in Firefox,Severe,1,s2,Web Compatibility,Site Reports,2022-11-16T12:27:34Z
+1800981,Crash in [@ nsHtml5Parser::UnblockParser],Severe,1,s2,Core,DOM: Core & HTML,2022-11-16T22:01:27Z
+1801370,Crash in [@ java.lang.RuntimeException: Unable to create application org.mozilla.fenix.FenixApplication: java.lang.IllegalArgumentException: Crash handler must be registered as a service],Severe,1,s2,GeckoView,General,2022-11-18T18:51:51Z
+1927749,electrek.co - The comment section is missing with ETP set to STRICT,Severe,1,s2,Web Compatibility,Privacy: Site Reports,2024-10-29T13:31:30Z
+1927827,Intermittent /service-workers/service-worker/activate-event-after-install-state-change.https.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Service Workers,2024-10-29T16:21:28Z
+1928173,Intermittent /fullscreen/model/move-to-iframe.html | single tracking bug,Non-Severe,0,s4,Core,DOM: Core & HTML,2024-10-30T19:14:39Z
+1928494,Intermittent [TVw] TEST-UNEXPECTED-TIMEOUT | /webnn/conformance_tests/byob_readtensor.https.any.worker.html?cpu | TestRunner hit external timeout (this may indicate a hang),Non-Severe,0,s4,Testing,web-platform-tests,2024-10-31T18:41:06Z
+1928631,Intermittent raptor-browsertime Critical: [chrome] Browsertime process timed out after 950 seconds,Non-Severe,0,s4,Testing,Raptor,2024-11-01T11:50:38Z
+1928962,WARNING: Listener is not retargetable: file netwerk/protocol/http/HttpChannelChild.cpp:3044,Severe,1,s2,Core,Networking: HTTP,2024-11-04T11:02:23Z
+1928978,www.catawiki.nl - Product page is not loading,Severe,1,s2,Web Compatibility,Site Reports,2024-11-04T12:20:57Z
+1929225,"When installing Privacy Browser or Dark Reader from the onboarding card the website is shown in ""Jump back in""",Severe,1,s2,Fenix,Onboarding,2024-11-05T11:14:52Z
+1929333,Crash in [@ ks3rdhmpg.dll | mozilla::interceptor::FuncHook<T>::operator()],Severe,1,s2,External Software Affecting Firefox,Other,2024-11-05T18:10:08Z
+1929494,Intermittent /webdriver/tests/bidi/browser/get_client_windows/get_client_windows.py | single tracking bug,Non-Severe,0,s4,Testing,web-platform-tests,2024-11-06T07:42:09Z
+1929620,Search Messages window statusbar should show (sub)folder being searched,Non-Severe,0,s4,Thunderbird,Mail Window Front End,2024-11-06T17:20:11Z
+1929622,Potential crash in Microsoft Entra SSO (macOS).,Severe,1,s2,Core,Networking: HTTP,2024-11-06T17:24:41Z
+1930480,[Menu Redesign] Extensions item from homepage menu opens the submenu instead of Manage extensions page,Severe,1,s2,Fenix,Toolbar,2024-11-11T13:18:43Z
+1930596,www.lasexta.com - The video is not playing with ETP Strict,Severe,1,s2,Web Compatibility,Privacy: Site Reports,2024-11-12T09:46:40Z
+1930650,The weather suggestion for a city is no longer displayed if the suggestion for that city was previously clicked,Severe,1,s2,Firefox,Address Bar,2024-11-12T14:09:59Z
+1930829,"Intermittent TV browser/components/profiles/tests/browser/browser_appmenu_menuitem_updates.js | expected the initial name - ""Updated"" == ""Initial name"" -",Non-Severe,0,s4,Toolkit,Startup and Profile System,2024-11-13T05:14:54Z
